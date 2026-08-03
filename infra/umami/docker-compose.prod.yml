@@ -1,0 +1,68 @@
+# Umami production stack: app + Postgres + Caddy (automatic HTTPS) + weekly backup.
+# Deploy with ./deploy.sh — it needs the .env that script generates.
+services:
+  caddy:
+    image: caddy:2-alpine
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+      - caddy-config:/config
+    depends_on: [umami]
+    restart: unless-stopped
+
+  umami:
+    image: ghcr.io/umami-software/umami:postgresql-latest
+    environment:
+      DATABASE_URL: postgresql://umami:${POSTGRES_PASSWORD}@db:5432/umami
+      DATABASE_TYPE: postgresql
+      APP_SECRET: ${APP_SECRET}
+      # Blocklists target /umami.js and /script.js by filename. Umami sets no
+      # cookies and collects no personal data either way; renaming just stops a
+      # blanket filename rule from making the numbers wrong.
+      TRACKER_SCRIPT_NAME: /gp.js
+      DISABLE_TELEMETRY: "1"
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: unless-stopped
+
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: umami
+      POSTGRES_USER: umami
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - umami-db:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U umami"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    restart: unless-stopped
+
+  # Weekly dump, kept 8 weeks. Analytics history cannot be reconstructed.
+  backup:
+    image: postgres:16-alpine
+    environment:
+      PGPASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - ./backups:/backups
+    depends_on:
+      db:
+        condition: service_healthy
+    entrypoint: >
+      sh -c 'while true; do
+        pg_dump -h db -U umami umami | gzip > /backups/umami-$$(date +%F).sql.gz;
+        find /backups -name "umami-*.sql.gz" -mtime +56 -delete;
+        sleep 604800;
+      done'
+    restart: unless-stopped
+
+volumes:
+  umami-db:
+  caddy-data:
+  caddy-config:
