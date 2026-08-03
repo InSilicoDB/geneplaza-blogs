@@ -7,7 +7,12 @@ description: Posts about what your DNA can and cannot tell you — each one buil
 {% extends "base.njk" %}
 
 {% block styles %}
-.hero{background:var(--secondary);padding:56px 0 52px;border-bottom:1px solid var(--line)}
+.hero{position:relative;padding:0 0 52px;border-bottom:1px solid var(--line);
+  background:var(--secondary)}
+.hero-art{display:block;width:100%;height:200px;object-fit:cover;object-position:center 42%;
+  border-bottom:1px solid var(--line)}
+@media(max-width:720px){.hero-art{height:128px}}
+.hero-copy{padding-top:40px}
 .hero h1{font-size:2.5rem;margin:0 0 12px;max-width:16ch}
 .hero p{font-size:1.12rem;color:var(--text);margin:0;max-width:60ch;font-weight:300}
 .stats{display:flex;gap:10px;flex-wrap:wrap;margin-top:26px}
@@ -27,7 +32,9 @@ section.lang h2{font-size:.8rem;text-transform:uppercase;letter-spacing:.09em;
 
 {% block body %}
 <div class="hero">
-  <div class="wrap">
+  <img class="hero-art" src="/blog/assets/hero-banner.png"
+       alt="Illustrated crowd of people with gene, taste, ancestry and fitness icons">
+  <div class="wrap hero-copy">
     <h1>Genetics, explained from the papers</h1>
     <p>Every post is built on the peer-reviewed study behind a GenePlaza app — with the
        effect sizes, the limitations, and what the result cannot tell you.</p>
