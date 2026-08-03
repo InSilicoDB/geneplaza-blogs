@@ -121,6 +121,9 @@ def main():
         # deliberately tiny - a meta refresh and one sentence.
         if 'http-equiv="refresh"' in raw:
             continue
+        # 404 page is a short notice by design
+        if url.endswith("/404.html"):
+            continue
         parser = BodyText()
         parser.feed(raw)
         n = parser.words()
