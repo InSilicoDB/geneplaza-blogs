@@ -1,0 +1,12 @@
+{
+  "name": "GenePlaza Blog",
+  "url": "https://blog.geneplaza.com",
+  "canonicalHost": "https://www.geneplaza.com",
+  "analytics": {
+    "provider": "none",
+    "ga4MeasurementId": "",
+    "plausibleDomain": "",
+    "umamiSrc": "",
+    "umamiWebsiteId": ""
+  }
+}

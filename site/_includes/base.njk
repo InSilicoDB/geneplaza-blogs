@@ -7,6 +7,31 @@
 <meta name="description" content="{{ description }}">
 <link rel="canonical" href="https://www.geneplaza.com{{ page.url }}">
 {%- block head %}{% endblock %}
+{#- Analytics. Set site.analytics.provider in content/_data/site.json.
+    ga4 loads only after consent (EU/ePrivacy); cookieless tools load immediately. -#}
+{%- if site.analytics.provider == "ga4" and site.analytics.ga4MeasurementId %}
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  // Consent Mode v2: deny until the visitor accepts.
+  gtag('consent', 'default', {
+    ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied',
+    analytics_storage: 'denied', wait_for_update: 500
+  });
+  if (localStorage.getItem('gp-consent') === 'granted') {
+    gtag('consent', 'update', { analytics_storage: 'granted' });
+  }
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.ga4MeasurementId }}"></script>
+<script>
+  gtag('js', new Date());
+  gtag('config', '{{ site.analytics.ga4MeasurementId }}', { anonymize_ip: true });
+</script>
+{%- elif site.analytics.provider == "plausible" and site.analytics.plausibleDomain %}
+<script defer data-domain="{{ site.analytics.plausibleDomain }}" src="https://plausible.io/js/script.js"></script>
+{%- elif site.analytics.provider == "umami" and site.analytics.umamiSrc %}
+<script defer src="{{ site.analytics.umamiSrc }}" data-website-id="{{ site.analytics.umamiWebsiteId }}"></script>
+{%- endif %}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300..700;1,300..600&display=swap" rel="stylesheet">
@@ -92,6 +117,31 @@ footer.site .legal{margin-top:34px;padding-top:18px;border-top:1px solid #dcdcd2
 </nav>
 
 {% block body %}{% endblock %}
+
+{%- if site.analytics.provider == "ga4" %}
+<div id="gp-consent" hidden style="position:fixed;bottom:0;left:0;right:0;z-index:900;
+  background:#fff;border-top:1px solid var(--line);padding:14px 20px;font-size:.88rem;
+  display:flex;gap:14px;align-items:center;justify-content:center;flex-wrap:wrap">
+  <span>We use analytics cookies to see which articles are read. No personal data is sold or shared.</span>
+  <button id="gp-accept" style="background:var(--primary);color:#fff;border:0;border-radius:3px;
+    padding:8px 16px;font:inherit;font-weight:600;cursor:pointer">Accept</button>
+  <button id="gp-decline" style="background:#fff;color:var(--text);border:1px solid var(--line);
+    border-radius:3px;padding:8px 16px;font:inherit;cursor:pointer">Decline</button>
+</div>
+<script>
+(function () {
+  var bar = document.getElementById('gp-consent');
+  if (!localStorage.getItem('gp-consent')) bar.hidden = false;
+  function set(v) {
+    localStorage.setItem('gp-consent', v);
+    bar.hidden = true;
+    if (v === 'granted' && window.gtag) gtag('consent', 'update', { analytics_storage: 'granted' });
+  }
+  document.getElementById('gp-accept').onclick = function () { set('granted'); };
+  document.getElementById('gp-decline').onclick = function () { set('denied'); };
+})();
+</script>
+{%- endif %}
 
 <footer class="site">
   <div class="wrap">
