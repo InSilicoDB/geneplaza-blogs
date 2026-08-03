@@ -42,7 +42,7 @@ jobs:
           cd site && npm install --no-audit --no-fund --silent
 
       - name: Build
-        run: cd site && npx eleventy
+        run: cd site && npx eleventy --pathprefix="${{ steps.pages.outputs.base_path }}/blog/"
 
       - name: Pages extras (redirects, CNAME, 404, root index)
         run: python tools/pages_extras.py --site site --domain blog.geneplaza.com
