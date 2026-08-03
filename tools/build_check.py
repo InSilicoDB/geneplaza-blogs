@@ -116,8 +116,13 @@ def main():
     EMPTY_FLOOR = 60
     thin, short = [], []
     for url, path in sorted(pages.items()):
+        raw = open(path, encoding="utf-8", errors="ignore").read()
+        # Redirect stubs (written by pages_extras.py for legacy URLs) are
+        # deliberately tiny - a meta refresh and one sentence.
+        if 'http-equiv="refresh"' in raw:
+            continue
         parser = BodyText()
-        parser.feed(open(path, encoding="utf-8", errors="ignore").read())
+        parser.feed(raw)
         n = parser.words()
         ptype = types.get(url, "index")
         floor = args.min_words if ptype in ("app", "science") else EMPTY_FLOOR
@@ -138,8 +143,9 @@ def main():
 
     broken = []
     for url, path in sorted(pages.items()):
+        raw = open(path, encoding="utf-8", errors="ignore").read()
         parser = BodyText()
-        parser.feed(open(path, encoding="utf-8", errors="ignore").read())
+        parser.feed(raw)
         for href in set(parser.links):
             if not resolves(href):
                 broken.append((url, href))
