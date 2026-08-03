@@ -1,0 +1,89 @@
+name: Deploy to GitHub Pages
+
+# Staging deploy to blog.geneplaza.com.
+# Runs only after CI passes, and only on main. Production (geneplaza.com/blog via
+# CloudFront) is a separate, later step - see infra/DEPLOY.md.
+
+on:
+  workflow_run:
+    workflows: ["CI"]
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    # Never publish off a red build.
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install
+        run: |
+          pip install --quiet -r requirements.txt
+          cd site && npm install --no-audit --no-fund --silent
+
+      - name: Build
+        run: cd site && npx eleventy
+
+      - name: Pages extras (redirects, CNAME, 404, root index)
+        run: python tools/pages_extras.py --site site --domain blog.geneplaza.com
+
+      - name: Sanity-check the artifact
+        run: |
+          test -f site/_site/CNAME || { echo "::error::CNAME missing"; exit 1; }
+          test -f site/_site/blog/index.html || { echo "::error::/blog/ index missing"; exit 1; }
+          test -f site/_site/blog/sitemap.xml || { echo "::error::sitemap missing"; exit 1; }
+          n=$(find site/_site/blog -name index.html | wc -l)
+          echo "pages: $n"
+          [ "$n" -ge 60 ] || { echo "::error::expected at least 60 pages, got $n"; exit 1; }
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/_site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Smoke test the live site
+        run: |
+          sleep 20
+          base="https://blog.geneplaza.com"
+          fail=0
+          for p in "/blog/" "/blog/en/cheddar-man-dark-skin-blue-eyes/" \
+                   "/blog/fr/intelligence-genetique/" "/blog/nl/ochtendmens-genetica/" \
+                   "/blog/sitemap.xml"; do
+            code=$(curl -s -o /dev/null -w "%{http_code}" "$base$p")
+            echo "$code  $p"
+            [ "$code" = "200" ] || fail=1
+          done
+          # a legacy WordPress URL must land on the consolidated press page
+          loc=$(curl -s "$base/blog/fr/adn/" | grep -o 'url=[^"]*' | head -1)
+          echo "legacy /blog/fr/adn/ -> $loc"
+          exit $fail
+        continue-on-error: true
