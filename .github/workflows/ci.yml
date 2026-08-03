@@ -73,9 +73,10 @@ jobs:
             echo "::error::permalinks already contain blog/ - pathPrefix /blog/ produces /blog/blog/..."
             exit 1
           fi
-          # Also catch it passed as a CLI flag in any workflow.
-          if grep -rn -- "--pathprefix" .github/workflows/; then
-            echo "::error::do not pass --pathprefix. Permalinks already contain blog/ and the site is served from a custom domain, so the prefix must stay '/'."
+          # Also catch it passed as a CLI flag. Match only actual invocations,
+          # so this check does not match its own grep pattern.
+          if grep -rnE 'eleventy[^|&]*--pathprefix' .github/workflows/; then
+            echo "::error::do not pass the pathprefix flag to eleventy. Permalinks already contain blog/ and the site is served from a custom domain, so the prefix must stay '/'."
             exit 1
           fi
 
