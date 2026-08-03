@@ -41,6 +41,11 @@ jobs:
           pip install --quiet -r requirements.txt
           cd site && npm install --no-audit --no-fund --silent
 
+      # 1. Automatically fetch the repository base path ('/geneplaza-blogs')
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+      
       - name: Build
         run: cd site && npx eleventy --pathprefix="${{ steps.pages.outputs.base_path }}/blog/"
 
