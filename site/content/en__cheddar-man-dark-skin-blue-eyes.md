@@ -14,7 +14,7 @@ permalink: "blog/en/cheddar-man-dark-skin-blue-eyes/index.html"
 
 In 1903, workmen cutting a drainage trench in Gough's Cave in Cheddar Gorge, Somerset, hit a skeleton. They called him Cheddar Man, announced he might be 80,000 years old, and were wrong by a factor of eight.
 
-![Watercolour of Gough's Cave, Cheddar Gorge](/blog/images/cheddar-man/goughs-cave.png)
+![Watercolour of Gough's Cave, Cheddar Gorge](/images/blog/cheddar-man/goughs-cave.png)
 *Gough's Cave, Somerset. Cool, stable, damp — near-perfect conditions for keeping DNA intact for ten millennia.*
 
 He was about 10,000 years old. He stood 166 centimetres. He died in his twenties. And for a century, nobody knew what he actually looked like.

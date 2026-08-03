@@ -1,7 +1,7 @@
 ---
 title: "24% of Under-30s Are Morning People. 63% of Over-60s Are. Nobody's Genome Changed"
 type: app
-description: A study of 89,283 people found 15 genetic regions associated with being a morning person, seven of them near known circadian clock genes. It also found that age shifts chronotype far more than any variant does.
+description: Broken: a study of 89,283 people found 15 genetic regions associated with being a morning person, seven of them near known circadian clock genes. It also found that age shifts chronotype far more than any variant does.
 date: 2024-06-08
 lang: en
 translation_key: morning-person
