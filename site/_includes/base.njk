@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="{{ lang or 'en' }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}{{ title }}{% endblock %} | GenePlaza</title>
+<meta name="description" content="{{ description }}">
+<link rel="canonical" href="https://www.geneplaza.com{{ page.url }}">
+{%- block head %}{% endblock %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300..700;1,300..600&display=swap" rel="stylesheet">
+<style>
+/* GenePlaza brand tokens, from geneplaza-webapp/app/styles/_variables.scss */
+:root{
+  --primary:#44355b;        /* $brand-primary  */
+  --secondary:#efefe5;      /* $brand-secondary */
+  --success:#20eac8;        /* $brand-success  */
+  --danger:#ee6352;         /* $brand-danger   */
+  --info:#0eb1d2;           /* $brand-info     */
+  --warning:#f1c90b;        /* $brand-warning  */
+  --ink:#000;
+  --text:#4a4a4a;           /* $color-appstore-text */
+  --muted:#8b8181;          /* $color-appstore-heading */
+  --line:#e4e4de;
+  --bg:#fff;
+  --maxw:1100px;
+  --readw:720px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);
+  font-family:"Work Sans",Helvetica,Arial,sans-serif;font-weight:400;
+  font-size:17px;line-height:1.7;-webkit-font-smoothing:antialiased}
+
+/* ---- navigation (mirrors .navigation in _navigation.scss) ---- */
+.navigation{position:sticky;top:0;z-index:500;background:#fff;
+  border-bottom:1px solid var(--line);padding:14px 50px}
+.navigation .inner{max-width:var(--maxw);margin:0 auto;display:flex;
+  align-items:center;justify-content:space-between;gap:24px}
+.navigation-brand{display:inline-flex;align-items:center}
+.navigation-brand img{display:block;height:44px;width:auto}
+.navigation-menu{display:flex;gap:26px;align-items:center;list-style:none;margin:0;padding:0}
+.navigation-menu a{color:var(--ink);text-decoration:none;font-weight:500;font-size:.95rem}
+.navigation-menu a:hover{color:var(--primary)}
+.navigation-menu a.cta{background:var(--primary);color:#fff;border-radius:3px;
+  padding:9px 18px;font-weight:600}
+.navigation-menu a.cta:hover{background:#332843;color:#fff}
+@media(max-width:720px){.navigation{padding:12px 20px}
+  .navigation-menu{gap:14px}.navigation-menu a:not(.cta){display:none}}
+
+/* ---- shared ---- */
+a{color:var(--primary)}
+a:hover{color:#332843}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 50px}
+@media(max-width:720px){.wrap{padding:0 20px}}
+h1,h2,h3{color:var(--ink);font-weight:600;letter-spacing:-.015em;line-height:1.25}
+.pill{display:inline-block;border:1px solid var(--line);border-radius:99px;
+  padding:2px 10px;font-size:.72rem;font-weight:500;color:var(--muted);
+  background:#fff;white-space:nowrap;letter-spacing:.02em}
+.pill.app{border-color:var(--primary);color:var(--primary)}
+.pill.science{border-color:var(--info);color:#0a7f97}
+.pill.announcement{border-color:var(--line);color:var(--muted)}
+
+/* ---- footer ---- */
+footer.site{background:var(--secondary);margin-top:80px;padding:44px 0 52px;
+  border-top:1px solid var(--line)}
+footer.site .cols{display:flex;gap:48px;flex-wrap:wrap;justify-content:space-between}
+footer.site h4{margin:0 0 10px;font-size:.78rem;text-transform:uppercase;
+  letter-spacing:.08em;color:var(--muted);font-weight:600}
+footer.site ul{list-style:none;margin:0;padding:0}
+footer.site li{margin-bottom:6px}
+footer.site a{color:var(--ink);text-decoration:none;font-size:.92rem}
+footer.site a:hover{color:var(--primary)}
+footer.site .legal{margin-top:34px;padding-top:18px;border-top:1px solid #dcdcd2;
+  color:var(--muted);font-size:.82rem;display:flex;justify-content:space-between;
+  gap:16px;flex-wrap:wrap}
+{% block styles %}{% endblock %}
+</style>
+</head>
+<body>
+
+<nav class="navigation">
+  <div class="inner">
+    <a class="navigation-brand" href="/blog/"><img src="/blog/assets/logo-primary.svg" alt="GenePlaza — your genetic print"></a>
+    <ul class="navigation-menu">
+      <li><a href="/blog/">Blog</a></li>
+      <li><a href="https://www.geneplaza.com/app-store">App Store</a></li>
+      <li><a href="https://www.geneplaza.com/app-store" class="cta">Upload your DNA</a></li>
+    </ul>
+  </div>
+</nav>
+
+{% block body %}{% endblock %}
+
+<footer class="site">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <h4>Blog</h4>
+        <ul>
+          <li><a href="/blog/">All posts</a></li>
+          <li><a href="/blog/en/ancient-dna-eras-guide/">Ancient DNA guide</a></li>
+          <li><a href="/blog/en/how-to-read-admixture-bar-charts/">Reading admixture charts</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Apps</h4>
+        <ul>
+          <li><a href="https://www.geneplaza.com/app-store">App Store</a></li>
+          <li><a href="https://www.geneplaza.com/app-store/58">Ancestry</a></li>
+          <li><a href="https://www.geneplaza.com/app-store/66">Health Traits</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Languages</h4>
+        <ul>
+          <li><a href="/blog/">English</a></li>
+          <li><a href="/blog/">Français</a></li>
+          <li><a href="/blog/">Nederlands</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="legal">
+      <span>© GenePlaza — your genetic print</span>
+      <span>Educational content. Not a medical or diagnostic service.</span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

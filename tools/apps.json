@@ -1,0 +1,640 @@
+[
+  {
+    "id": "53",
+    "title": "My Weight",
+    "study": "From the study by Elizabeth Speliotes et al.,  Broad Institute, US",
+    "institution": "InSilico Genomics S.A.",
+    "category": [
+      "appearence",
+      "nutrition"
+    ],
+    "price": 519,
+    "short_description": "Can genes determine the size of your jeans?",
+    "long_description": "",
+    "url": "https://www.geneplaza.com/app-store/53"
+  },
+  {
+    "id": "54",
+    "title": "Sleep Zzzz",
+    "study": "From the study of Youna Hu et al. 23andMe, US",
+    "institution": "InSilico Genomics S.A.",
+    "category": [
+      "behaviour"
+    ],
+    "price": 519,
+    "short_description": "Do you fall asleep as soon as your head touches the pillow?",
+    "long_description": "Study showed that it had influence on wake-up times and, as a internal clock, may be associated with a preference for daytime or nighttime activity. The PER1 gene orchestra dictates the optimum times for everything from athletic performance, shaving, taking medicine to cramming for an exam. This fact might be anecdotical but in our society, understanding and leveraging the power of these biological sleep patterns would be good for public health and productivity. What are you? An early riser or a night owl?",
+    "url": "https://www.geneplaza.com/app-store/54"
+  },
+  {
+    "id": "55",
+    "title": "Taste Perception",
+    "study": "From the study of Julie Mennela, Monel Center, US",
+    "institution": "InSilico Genomics S.A.",
+    "category": [
+      "nutrition"
+    ],
+    "price": 419,
+    "short_description": "We are not genetically equal when it comes to tasting!",
+    "long_description": "In the same way some people were born colorblind, some others may have been born \u201cbitterness-blind,\u201d or the opposite, as \u201csupertasters.\u201d...",
+    "url": "https://www.geneplaza.com/app-store/55"
+  },
+  {
+    "id": "56",
+    "title": "Ci-lantro vs No-lantro",
+    "study": "From the study of Nicholas Eriksson et al. 23andMe, US",
+    "institution": "InSilico Genomics S.A.",
+    "category": [
+      "nutrition"
+    ],
+    "price": 419,
+    "short_description": "Does cilantro (or coriander) tastes like it should\u2026 or like soap?",
+    "long_description": "How come though? Widely used in cuisines from many different countries, from Indian curries, to Mexican salsas, and Moroccan tagines, cilantro is a make or break kind of condiment. The description of what cilantro tastes like ranges from \u201ccomet cleanser\u201d to \u201crancid body odor\u201d and \u201cburnt plastic and blood\u201d. No wonder that date was a disaster! But difference in flavor is no longer a mystery or simply a \u201cmatter of taste,\u201d after analyzing the genomes of thousands of people, recent studies have found that this soapy and/or disgusting flavor that some people describe when eating cilantro has to do with a group of olfactory-receptor genes which some people share, while others don\u2019t.",
+    "url": "https://www.geneplaza.com/app-store/56"
+  },
+  {
+    "id": "57",
+    "title": "Neuroticism App",
+    "study": "From the study of Naomi Wray, Queensland Institute of Medical Research, Australia",
+    "institution": "InSilico Genomics S.A.",
+    "category": [
+      "behaviour"
+    ],
+    "price": 419,
+    "short_description": "When you watch a Woody Allen movie, do you most often relate to Woody Allen himself?...",
+    "long_description": "",
+    "url": "https://www.geneplaza.com/app-store/57"
+  },
+  {
+    "id": "58",
+    "title": "Ancestry",
+    "study": "From Dr. Joe Pickrell's algorithm and DNA.Land design, New York Genome Center, US",
+    "institution": "InSilico Genomics S.A.",
+    "category": [
+      "appearence"
+    ],
+    "price": 620,
+    "short_description": "Estimation of the general geographic regions where your ancestors lived some indeterminate time in that past, probably a few hundred years ago...",
+    "long_description": "",
+    "url": "https://www.geneplaza.com/app-store/58"
+  },
+  {
+    "id": "60",
+    "title": "Intelligence App",
+    "study": "From the study of Aysu Okbay, Erasmus University, Netherlands",
+    "institution": null,
+    "category": [
+      "behaviour"
+    ],
+    "price": 600,
+    "short_description": "Did you read more books than your genes expected to?",
+    "long_description": "",
+    "url": "https://www.geneplaza.com/app-store/60"
+  },
+  {
+    "id": "61",
+    "title": "Coffee Metabolism",
+    "study": "From the study of Marilyn Cornelis, Northwestern Medicine, US",
+    "institution": null,
+    "category": [
+      "nutrition"
+    ],
+    "price": 419,
+    "short_description": "How quickly do you metabolize coffee?",
+    "long_description": "",
+    "url": "https://www.geneplaza.com/app-store/61"
+  },
+  {
+    "id": "63",
+    "title": "Ethnicity Calculator",
+    "study": "From the algorithms developed by Lasse Folkersen. UX design by GenePlaza",
+    "institution": null,
+    "category": [
+      "appearence"
+    ],
+    "price": 719,
+    "short_description": "Visualize in 3D your ethnic distances to known populations.",
+    "long_description": "",
+    "url": "https://www.geneplaza.com/app-store/63"
+  },
+  {
+    "id": "65",
+    "title": "K29 Admixture Calculator",
+    "study": "Dilawer Khan",
+    "institution": null,
+    "category": [
+      "appearence"
+    ],
+    "price": 770,
+    "short_description": "The K29 Admixture Calculator determines your genetic similarity to various worldwide populations based on shared allele frequencies.",
+    "long_description": "The K29 Admixture Calculator determines your genetic similarity to various worldwide populations based on shared allele frequencies. In this spreadsheet you can find more information about the calculator and results from various samples.",
+    "url": "https://www.geneplaza.com/app-store/65"
+  },
+  {
+    "id": "66",
+    "title": "Health Traits",
+    "study": "From the algorithms developed by Lasse Folkersen. UX design by GenePlaza",
+    "institution": null,
+    "category": [
+      "appearence"
+    ],
+    "price": 819,
+    "short_description": "The 500K application is based on the results from the UK Biobank study which analysed around 500,000 people in the UK. DISCLAIMER This application is not a diagnosis, a prediction, or a predisposition score.",
+    "long_description": "The 500K application is based on the results from the UK Biobank study which analysed around 500,000 people in the UK. These people where asked hundreds of questions. For each question this application computes a predisposition score. The results are calculated with data from Neale lab that generated summary statistics from UK Biobank study. DISCLAIMER This application is not a diagnosis, a prediction, or a predisposition score. This app simply shows what your score would have been if you had participated in this study. Some applications show various graphs computed from models issued by independent studies. It is possible results contradict across models.",
+    "url": "https://www.geneplaza.com/app-store/66"
+  },
+  {
+    "id": "68",
+    "title": "Depression App",
+    "study": "Based on the study of Naomi R., et al., University of Queensland, Australia",
+    "institution": "InSilico Genomics S.A.",
+    "category": [
+      "behaviour"
+    ],
+    "price": 620,
+    "short_description": "What is your genetic risk to depression compared to the average risk?",
+    "long_description": "",
+    "url": "https://www.geneplaza.com/app-store/68"
+  },
+  {
+    "id": "69",
+    "title": "The K35 calculator",
+    "study": "Dilawer Khan",
+    "institution": "",
+    "category": [
+      "appearence"
+    ],
+    "price": 870,
+    "short_description": "Your genetic similarity to ancient bronze and iron age cultures.",
+    "long_description": "",
+    "url": "https://www.geneplaza.com/app-store/69"
+  },
+  {
+    "id": "70",
+    "title": "Math Ability",
+    "study": "Based on the study of James J. Lee, et al., Department of Psychology, University of Minnesota Twin Cities, Minneapolis, MN, USA.",
+    "institution": "InSilico Genomics S.A.",
+    "category": [
+      "behaviour"
+    ],
+    "price": 670,
+    "short_description": "Find out how your relative math ability is compared to the rest of the population.",
+    "long_description": "",
+    "url": "https://www.geneplaza.com/app-store/70"
+  },
+  {
+    "id": "73",
+    "title": "SAPDA",
+    "study": "Dilawer Khan",
+    "institution": "",
+    "category": [
+      "appearence"
+    ],
+    "price": 1365,
+    "short_description": "SAPDA is a new ancestry inference software developed by Dilawer Khan. It is unlike any of the other currently available ancestry inference programs.",
+    "long_description": "SAPDA is a new ancestry inference software developed by Dilawer Khan. It is unlike any of the other currently available ancestry inference programs. By using outgroup populations SAPDA removes old mutations which are common to many worldwide populations. In doing this shared old mutations which can confound more recent ancestry inference are removed. SAPDA SOFTWARE FEATURES & BENEFITS OVER CURRENTLY AVAILABLE CALCULATORS Use of multiple outgroup populations to increase certainty of mutations specific to various populations; User receives graphical evidence of genes shared with other populations in support of admixture percentage calculations; Filtration of old mutations common to many populations in admixture calculations; Single population sharing output (GSI) to more accurately quantify admixture percentages; Mitigation of ascertainment bias inherent in public SNP arrays. For additional information about SAPDA please refer to EurasianDNA.com",
+    "url": "https://www.geneplaza.com/app-store/73"
+  },
+  {
+    "id": "74",
+    "title": "Addictions",
+    "study": "Ins. AI",
+    "institution": "Ins. AI",
+    "category": [
+      "behaviour"
+    ],
+    "price": 770,
+    "short_description": "Predicted drug addiction related genetic variants",
+    "long_description": "Predicted drug addiction related genetic variants",
+    "url": "https://www.geneplaza.com/app-store/74"
+  },
+  {
+    "id": "75",
+    "title": "Bronze Age DNA Test - Beginner",
+    "study": "Anath Genomics",
+    "institution": null,
+    "category": [
+      "appearence"
+    ],
+    "price": 2200,
+    "short_description": "Visit the Bronze Age home page",
+    "long_description": "What was once DNA from one skeleton of an ancient Aboriginal became a rapidly growing database with thousands of ancient DNA samples. This test brings together the DNA of every Bronze Age individual discovered and previously sequenced. The Beginner Bronze Age DNA test is a low-resolution DNA test, which calculates the proportion of 6 ancient gene pools. Visit the Bronze Age home page",
+    "url": "https://www.geneplaza.com/app-store/75"
+  },
+  {
+    "id": "76",
+    "title": "Bronze Age DNA Test - Advance",
+    "study": "Anath Genomics",
+    "institution": null,
+    "category": [
+      "appearence"
+    ],
+    "price": 3200,
+    "short_description": "Visit the Bronze Age home page",
+    "long_description": "The Bronze Age DNA test shares the stories of some of these successful and less successful Bronze Age cultures and reports which of these ancient cultures you are the most similar to, although exact matches will be rare due to the extinction of some of the Bronze age gene pools. The Advanced Bronze Age DNA test is a high-resolution DNA test, which calculates the proportion of 10 ancient gene pools. Visit the Bronze Age home page",
+    "url": "https://www.geneplaza.com/app-store/76"
+  },
+  {
+    "id": "77",
+    "title": "K5 Admixture",
+    "study": "Dilawer Khan",
+    "institution": null,
+    "category": [
+      "appearence"
+    ],
+    "price": 900,
+    "short_description": "In contrast to commercial ancestry tests and other Admixture program based calculators, the Eurasia K5 is designed to detect TOTAL DEEPER RELATEDNESS between the test subject and the aforementioned divergent populations than other tests.",
+    "long_description": "The Eurasia K5 admixture calculator was specifically designed to measure relatedness of individuals to highly diverged populations of Eurasia, to wit: 1- West Eurasians 2- South Eurasians 3- East Eurasians 4- Eastern Siberians & Native Americans 5- Basal Eurasians & Africans Differences between the Eurasia K5, commercial ancestry tests, and other Admixture program based calculators: In contrast to commercial ancestry tests and other Admixture program based calculators, the Eurasia K5 is designed to detect TOTAL DEEPER RELATEDNESS between the test subject and the aforementioned divergent populations than other tests. Commercial DNA ancestry tests can detect East or South Asian ancestry in Europeans or West Asians only if there is recent admixture, however they are not designed to find older such ancestry that may have introgressed during Medieval, Iron Age, Bronze Age, or Neolithic times. Similarly other Admixture program based calculators do the same. The reason for this is that a test subject's DNA is compared to many other West Asian or European populations and many South or East Asian DNA segments go unreported because they are incorporated into the West Asian or European references via older admixture from Iron Age Steppe nomads or Turkic migrations into West Asia and Europe. In other words these older East or South Asian DNA segments are not reported under East or South Asian in the test subject's test results. This calculator seeks to find those older East Eurasian, South Eurasian, Siberian, and Basal Eurasian/African segments in the user's DNA. Similarly, this test also seeks to find older West Eurasian, Siberian, and Basal Eurasian DNA segments in East Asian users. Ditto for testers from the Americas and Africa. In \"Paleolithic DNA from the Caucasus reveals core of West Eurasian ancestry\", Supplementary Information, Tables S4.2-S4.5, Lazaridis et al, 2018, the authors showed via formal statistics that most West Asian and European populations including ancient ones have some older East Asian and Siberian related admixture. The Eurasia K5 test is also able to detect this older admixture unlike commercial ancestry testing companies such as 23andMe or AncestryDNA, and unlike most other Admixture based calculators.",
+    "url": "https://www.geneplaza.com/app-store/77"
+  },
+  {
+    "id": "78",
+    "title": "K30",
+    "study": "Dilawer Khan",
+    "institution": null,
+    "category": [
+      "appearence"
+    ],
+    "price": 1000,
+    "short_description": "The K30 Admixture Calculator determines your genetic similarity to various worldwide populations based on shared allele frequencies.",
+    "long_description": "The K30 Admixture Calculator determines your genetic similarity to various worldwide populations based on shared allele frequencies.",
+    "url": "https://www.geneplaza.com/app-store/78"
+  },
+  {
+    "id": "79",
+    "title": "Paleolithic Age DNA Test - Beginner",
+    "study": "Anath Genomic Consultants AB",
+    "institution": null,
+    "category": [
+      "appearence"
+    ],
+    "price": 2200,
+    "short_description": "Visit the Stone Age home page",
+    "long_description": "Visit the Stone Age home page",
+    "url": "https://www.geneplaza.com/app-store/79"
+  },
+  {
+    "id": "80",
+    "title": "Paleolithic Age DNA Test - Advance",
+    "study": "Anath Genomic Consultants AB",
+    "institution": null,
+    "category": [
+      "appearence"
+    ],
+    "price": 3200,
+    "short_description": "Visit the Stone Age home page",
+    "long_description": "Visit the Stone Age home page",
+    "url": "https://www.geneplaza.com/app-store/80"
+  },
+  {
+    "id": "81",
+    "title": "Mesolithic Age DNA Test - Beginner",
+    "study": "Anath Genomic Consultants AB",
+    "institution": null,
+    "category": [
+      "appearence"
+    ],
+    "price": 2200,
+    "short_description": "Visit the Mesolithic Age home page",
+    "long_description": "Visit the Mesolithic Age home page",
+    "url": "https://www.geneplaza.com/app-store/81"
+  },
+  {
+    "id": "82",
+    "title": "Mesolithic Age DNA Test - Advance",
+    "study": "Anath Genomic Consultants AB",
+    "institution": null,
+    "category": [
+      "appearence"
+    ],
+    "price": 3200,
+    "short_description": "Visit the Mesolithic Age home page",
+    "long_description": "Visit the Mesolithic Age home page",
+    "url": "https://www.geneplaza.com/app-store/82"
+  },
+  {
+    "id": "83",
+    "title": "Early Neolithic Age DNA Test - Beginner",
+    "study": "Anath Genomic Consultants AB",
+    "institution": null,
+    "category": [
+      "appearence"
+    ],
+    "price": 2200,
+    "short_description": "Visit the Neolithic Age home page",
+    "long_description": "Visit the Neolithic Age home page The test includes regional ancestries or gene pools that distinguish past populations. 6 of those gene pools are available in the Beginner version of the test, and 10 are available in the Advanced version. Note , the regional ancestries are shared throughout the neolithic era, thereby the gene pools in the early and late neolithic are the same, but the cultures are different",
+    "url": "https://www.geneplaza.com/app-store/83"
+  },
+  {
+    "id": "84",
+    "title": "Early Neolithic Age DNA Test - Advance",
+    "study": "Anath Genomic Consultants AB",
+    "institution": null,
+    "category": [
+      "appearence"
+    ],
+    "price": 3200,
+    "short_description": "Visit the Neolithic Age home page",
+    "long_description": "Visit the Neolithic Age home page The test includes regional ancestries or gene pools that distinguish past populations. 6 of those gene pools are available in the Beginner version of the test, and 10 are available in the Advanced version. Note , the regional ancestries are shared throughout the neolithic era, thereby the gene pools in the early and late neolithic are the same, but the cultures are different",
+    "url": "https://www.geneplaza.com/app-store/84"
+  },
+  {
+    "id": "85",
+    "title": "Late Neolithic Age DNA Test - Beginner",
+    "study": "Anath Genomic Consultants AB",
+    "institution": null,
+    "category": [
+      "appearence"
+    ],
+    "price": 2200,
+    "short_description": "Visit the Neolithic Age home page",
+    "long_description": "Visit the Neolithic Age home page The test includes regional ancestries or gene pools that distinguish past populations. 6 of those gene pools are available in the Beginner version of the test, and 10 are available in the Advanced version. Note , the regional ancestries are shared throughout the neolithic era, thereby the gene pools in the early and late neolithic are the same, but the cultures are different",
+    "url": "https://www.geneplaza.com/app-store/85"
+  },
+  {
+    "id": "86",
+    "title": "Late Neolithic Age DNA Test - Advance",
+    "study": "Anath Genomic Consultants AB",
+    "institution": null,
+    "category": [
+      "appearence"
+    ],
+    "price": 3200,
+    "short_description": "Visit the Neolithic Age home page",
+    "long_description": "Visit the Neolithic Age home page The test includes regional ancestries or gene pools that distinguish past populations. 6 of those gene pools are available in the Beginner version of the test, and 10 are available in the Advanced version. Note , the regional ancestries are shared throughout the neolithic era, thereby the gene pools in the early and late neolithic are the same, but the cultures are different",
+    "url": "https://www.geneplaza.com/app-store/86"
+  },
+  {
+    "id": "87",
+    "title": "Copper Age DNA Test - Beginner",
+    "study": "Anath Genomic Consultants AB",
+    "institution": null,
+    "category": [
+      "appearence"
+    ],
+    "price": 2200,
+    "short_description": "Visit the Copper Age home page",
+    "long_description": "Visit the Copper Age home page",
+    "url": "https://www.geneplaza.com/app-store/87"
+  },
+  {
+    "id": "88",
+    "title": "Copper Age DNA Test - Advance",
+    "study": "Anath Genomic Consultants AB",
+    "institution": null,
+    "category": [
+      "appearence"
+    ],
+    "price": 3200,
+    "short_description": "Visit the Copper Age home page",
+    "long_description": "Visit the Copper Age home page",
+    "url": "https://www.geneplaza.com/app-store/88"
+  },
+  {
+    "id": "89",
+    "title": "Iron Age DNA Test - Beginner",
+    "study": "Anath Genomic Consultants AB",
+    "institution": null,
+    "category": [
+      "appearence"
+    ],
+    "price": 2200,
+    "short_description": "Visit the Iron Age home page",
+    "long_description": "Visit the Iron Age home page",
+    "url": "https://www.geneplaza.com/app-store/89"
+  },
+  {
+    "id": "90",
+    "title": "Iron Age DNA Test - Advance",
+    "study": "Anath Genomic Consultants AB",
+    "institution": null,
+    "category": [
+      "appearence"
+    ],
+    "price": 3200,
+    "short_description": "Visit the Iron Age home page",
+    "long_description": "Visit the Iron Age home page",
+    "url": "https://www.geneplaza.com/app-store/90"
+  },
+  {
+    "id": "91",
+    "title": "Spondyloarthritis Insights",
+    "study": "GenomeGenius",
+    "institution": null,
+    "category": [
+      "appearence"
+    ],
+    "price": 1400,
+    "short_description": "This app offers insights into Spondyloarthritis based on genomic data. The condition causes inflammation in the spine and joints, leading to pain, stiffness, fatigue, and eye inflammation.",
+    "long_description": "This app offers insights into Spondyloarthritis based on genomic data. The condition causes inflammation in the spine and joints, leading to pain, stiffness, fatigue, and eye inflammation.",
+    "url": "https://www.geneplaza.com/app-store/91"
+  },
+  {
+    "id": "92",
+    "title": "Early Classical Antiquity Age DNA Test - Beginner",
+    "study": "Anath Genomic Consultants AB",
+    "institution": null,
+    "category": [
+      "appearence"
+    ],
+    "price": 2200,
+    "short_description": "Visit the Classical Antiquity Age home page",
+    "long_description": "Visit the Classical Antiquity Age home page The test includes regional ancestries or gene pools that distinguish past populations. 7 of those gene pools are available in the Beginner version of the test, and 11 are available in the Advanced version. Note , the regional ancestries are shared throughout the classical era, thereby the gene pools in the early and late classical are the same, but the cultures are different",
+    "url": "https://www.geneplaza.com/app-store/92"
+  },
+  {
+    "id": "93",
+    "title": "Early Classical Antiquity Age DNA Test - Advance",
+    "study": "Anath Genomic Consultants AB",
+    "institution": null,
+    "category": [
+      "appearence"
+    ],
+    "price": 3200,
+    "short_description": "Visit the Classical Antiquity Age home page",
+    "long_description": "Visit the Classical Antiquity Age home page The test includes regional ancestries or gene pools that distinguish past populations. 7 of those gene pools are available in the Beginner version of the test, and 11 are available in the Advanced version. Note , the regional ancestries are shared throughout the classical era, thereby the gene pools in the early and late classical are the same, but the cultures are different",
+    "url": "https://www.geneplaza.com/app-store/93"
+  },
+  {
+    "id": "94",
+    "title": "Late Classical Antiquity Age DNA Test - Beginner",
+    "study": "Anath Genomic Consultants AB",
+    "institution": null,
+    "category": [
+      "appearence"
+    ],
+    "price": 2200,
+    "short_description": "Visit the Classical Antiquity Age home page",
+    "long_description": "Visit the Classical Antiquity Age home page The test includes regional ancestries or gene pools that distinguish past populations. 7 of those gene pools are available in the Beginner version of the test, and 11 are available in the Advanced version. Note , the regional ancestries are shared throughout the classical era, thereby the gene pools in the early and late classical are the same, but the cultures are different",
+    "url": "https://www.geneplaza.com/app-store/94"
+  },
+  {
+    "id": "95",
+    "title": "Late Classical Antiquity Age DNA Test - Advance",
+    "study": "Anath Genomic Consultants AB",
+    "institution": null,
+    "category": [
+      "appearence"
+    ],
+    "price": 3200,
+    "short_description": "Visit the Classical Antiquity Age home page",
+    "long_description": "Visit the Classical Antiquity Age home page The test includes regional ancestries or gene pools that distinguish past populations. 7 of those gene pools are available in the Beginner version of the test, and 11 are available in the Advanced version. Note , the regional ancestries are shared throughout the classical era, thereby the gene pools in the early and late classical are the same, but the cultures are different",
+    "url": "https://www.geneplaza.com/app-store/95"
+  },
+  {
+    "id": "96",
+    "title": "MTHFR Insights",
+    "study": "GenomeGenius",
+    "institution": null,
+    "category": [
+      "appearence"
+    ],
+    "price": 1400,
+    "short_description": "This app offers insights into the MTHFR gene mutation based on genomic data. An MTHFR gene mutation could affects the body's ability to properly process folate, leading to potentially elevated levels of homocysteine in the blood due to impaired enzyme function.",
+    "long_description": "This app offers insights into the MTHFR gene mutation based on genomic data. An MTHFR gene mutation is a variation in the methylenetetrahydrofolate reductase (MTHFR) gene that affects the body's ability to properly process folate (vitamin B9), leading to potentially elevated levels of homocysteine in the blood due to impaired enzyme function. This can be associated with a range of health concerns depending on the severity of the mutation and individual factors, including potential risks for cardiovascular disease, neural tube defects, and certain psychiatric conditions.",
+    "url": "https://www.geneplaza.com/app-store/96"
+  },
+  {
+    "id": "97",
+    "title": "Neuropsychiatric Disorders",
+    "study": "GenomeGenius",
+    "institution": null,
+    "category": [
+      "appearence"
+    ],
+    "price": 1400,
+    "short_description": "Neuropsychiatric disorders are conditions that affect both the brain and mental health. They can include a wide range of symptoms, such as behavioral changes, cognitive impairment, and emotional disturbances.",
+    "long_description": "Neuropsychiatric disorders are conditions that affect both the brain and mental health. They can include a wide range of symptoms, such as behavioral changes, cognitive impairment, and emotional disturbances. While this app does not provide medical advice, it supports you in your journey to find answers to your questions and problems. Getting help is the crucial first step towards raising awareness of your problems and developing effective coping mechanisms.",
+    "url": "https://www.geneplaza.com/app-store/97"
+  },
+  {
+    "id": "98",
+    "title": "Personality Traits",
+    "study": "GenomeGenius",
+    "institution": null,
+    "category": [
+      "appearence"
+    ],
+    "price": 1400,
+    "short_description": "Neuropsychiatric disorders are conditions that affect both the brain and mental health. They can include a wide range of symptoms, such as behavioral changes, cognitive impairment, and emotional disturbances.",
+    "long_description": "Neuropsychiatric disorders are conditions that affect both the brain and mental health. They can include a wide range of symptoms, such as behavioral changes, cognitive impairment, and emotional disturbances. While this app does not provide medical advice, it supports you in your journey to find answers to your questions and problems. Getting help is the crucial first step towards raising awareness of your problems and developing effective coping mechanisms.",
+    "url": "https://www.geneplaza.com/app-store/98"
+  },
+  {
+    "id": "99",
+    "title": "Drug Metabolism NSAIDs",
+    "study": "GenomeGenius",
+    "institution": null,
+    "category": [
+      "appearence"
+    ],
+    "price": 1400,
+    "short_description": "Understand how genetic variation influences NSAID metabolism. This app translates established CYP2C9 pharmacogenomics research into clear, easy-to-understand insights about NSAID drug metabolism,",
+    "long_description": "Understand how genetic variation influences NSAID metabolism. This app translates established CYP2C9 pharmacogenomics research into clear, easy-to-understand insights about NSAID drug metabolism,",
+    "url": "https://www.geneplaza.com/app-store/99"
+  },
+  {
+    "id": "100",
+    "title": "Educational Attainment App",
+    "study": "GenePlaza",
+    "institution": "GenePlaza",
+    "category": [
+      "behaviour"
+    ],
+    "price": 800,
+    "short_description": "Educational Attainment PGI turns a genotype file into a clear, ancestry-aware educational attainment index. It shows your score on an easy-to-read distribution chart, compares it with population reference groups, and explains the result in plain language so the numbers are easier to understand.",
+    "long_description": "Educational Attainment PGI turns a genotype file into a clear, ancestry-aware educational attainment index. It shows your score on an easy-to-read distribution chart, compares it with population reference groups, and explains the result in plain language so the numbers are easier to understand.",
+    "url": "https://www.geneplaza.com/app-store/100"
+  },
+  {
+    "id": "101",
+    "title": "Myopia App",
+    "study": "GenePlaza",
+    "institution": "GenePlaza",
+    "category": [
+      "behaviour"
+    ],
+    "price": 399,
+    "short_description": "Discover your myopia polygenic index, a single genetic score, built from the published PGS001994 (2022 UK Biobank study), that shows where your DNA places you within an ancestry-matched reference population for short-sightedness. Upload your existing DNA file to get your percentile, an interactive distribution chart, and a printable report. For education and entertainment only, it is not a medical or diagnostic test.",
+    "long_description": "Discover your myopia polygenic index, a single genetic score, built from the published PGS001994 (2022 UK Biobank study), that shows where your DNA places you within an ancestry-matched reference population for short-sightedness. Upload your existing DNA file to get your percentile, an interactive distribution chart, and a printable report. For education and entertainment only, it is not a medical or diagnostic test.",
+    "url": "https://www.geneplaza.com/app-store/101"
+  },
+  {
+    "id": "10000",
+    "title": "Neolithic Age Beginner DNA Package",
+    "study": "Anath Genomic Consultants AB",
+    "institution": null,
+    "category": [
+      "appearence"
+    ],
+    "price": 3600,
+    "short_description": "",
+    "long_description": "This a package that combines the Early and Late Neolithic Age Beginner DNA applications. The Neolithic applications share the same gene pools but have different cultures. Visit the Early Neolithic Age home page Visit the Late Neolithic Age home page",
+    "url": "https://www.geneplaza.com/app-store/10000"
+  },
+  {
+    "id": "10001",
+    "title": "Neolithic Age Advanced DNA Package",
+    "study": "Anath Genomic Consultants AB",
+    "institution": null,
+    "category": [
+      "appearence"
+    ],
+    "price": 5000,
+    "short_description": "",
+    "long_description": "This a package that combines the Early and Late Neolithic Age Advanced DNA applications. The Neolithic applications share the same gene pools but have different cultures. Visit the Early Neolithic Age home page Visit the Late Neolithic Age home page",
+    "url": "https://www.geneplaza.com/app-store/10001"
+  },
+  {
+    "id": "10002",
+    "title": "MY GENESIS ORIGINS TEST PACKAGE - Beginner",
+    "study": "Anath Genomic Consultants AB",
+    "institution": null,
+    "category": [
+      "appearence"
+    ],
+    "price": 7900,
+    "short_description": "The MY GENESIS ORIGINS BEGINNER TEST SERIES is the most detailed and extensive ancient DNA test series that employs ancient DNA from real ancient people who lived in each specific era to help you discover your genesis origins (50,000-300 BC).",
+    "long_description": "The MY GENESIS ORIGINS TEST SERIES (PALEOLITHIC - BRONZE AGE) is the most detailed and extensive ancient DNA test series that employs ancient DNA from real ancient people who lived in each specific era to help you discover your genesis origins (50,000-300 BC). The name of the series is derived from the large number of gene pools that are mentioned in Genesis 10, including Canaan (Mesolithic Origins Test), Kush, Tiras, Shem, Riphath, and Gog and Magog (Early and Late Neolithic Origin Tests). What will I get? Included in this test series are our six best tests: Paleolithic Origins ( Basic : 5 Gene pools and 10 cultures. Advanced: 8 Gene pools and 22 cultures) Mesolithic Origins ( Basic : 5 Gene pools and 10 cultures. Advanced : 8 Gene pools and 22 cultures) Early Neolithic Origins ( Basic : 6 Gene pools and 9 cultures. Advanced : 8 Gene pools and 22 cultures) Late Neolithic Origins ( Basic : 6 Gene pools and 9 cultures. Advanced : 8 Gene pools and 22 cultures) Copper Origins ( Basic : 5 Gene pools and 10 cultures. Advanced : 8 Gene pools and 22 cultures) Bronze Origins ( Basic : 6 Gene pools and 7 cultures. Advanced : 8 Gene pools and 25 cultures) Overall, our Basic tests include 21 Gene Pools and 55 cultures, and our Advanced tests include 40 Gene Pools and 135 cultures. How is your test different from other tests? How does it work? With our revolutionary paleogenomics technology, we've embarked on a groundbreaking journey into the past, unraveling the mysteries of ancient civilizations like never before. Through the meticulous analysis of a unique set of mutations present in thousands of ancient individuals who lived between 50,000 and 300 BC, we identified regional signatures that represent the ancient ancestries of each era, which we call gene pools. The genome of everyone, ancient or modern person, is represented as a combination of these gene pools (ranging from 0% to 100%). By calculating your ancient gene pools from each era and comparing you to hundreds of cultures around the world, we can connect you with your ancient ancestors. Our cutting-edge approach to paleogenomics allows us to delve deeper than any other test into the genetic makeup of ancient populations of each era and unlock the secrets of their origins, migrations, and interactions with one another. Why are ancient cultures different from one another if they lived at the same time? Because mating was mostly within tribes that did not interact with each other, over time, genetic differences were created between populations even if they lived at the same time. Therefore, different cultures have varying proportions of regional components, which allows us to characterize those cultures and compare their genetic makeup with yours. In that way, we can find, for example, the Bronze Age cultures that are most genetically similar to your Bronze Age genomic makeup. What is the difference between Basic and Advanced Tests? We designed our tests for beginners and advanced users. The beginner tests are cheaper and include fewer gene pools and cultures, while our advanced tests include the complete set of gene pools and cultures. Who developed the tests? All our tests were developed by Dr. Eran Elhaik, an expert in Population, medical, and evolutionary genomics with over 20 years of experience developing genetic tests, including Genographic's Geno 2.0 , GPS Origins , and Ancient DNA Origins . As a pioneer in the field, Dr. Elhaik's research has been published in prestigious scientific journals, earning him international acclaim for his contributions to advancing genomic science. His commitment to excellence and his unwavering dedication to scientific rigor ensure that our tests adhere to the highest standards of quality and accuracy. With Dr. Elhaik at the helm, you can trust that our tests are scientifically rigorous and meticulously designed to provide you with the most comprehensive insights into your genetic heritage.",
+    "url": "https://www.geneplaza.com/app-store/10002"
+  },
+  {
+    "id": "10003",
+    "title": "MY GENESIS ORIGINS TEST PACKAGE - Advance",
+    "study": "Anath Genomic Consultants AB",
+    "institution": null,
+    "category": [
+      "appearence"
+    ],
+    "price": 9900,
+    "short_description": "The MY GENESIS ORIGINS ADVANCED TEST SERIES is the most detailed and extensive ancient DNA test series that employs ancient DNA from real ancient people who lived in each specific era to help you discover your genesis origins (50,000-300 BC).",
+    "long_description": "The MY GENESIS ORIGINS TEST SERIES (PALEOLITHIC - BRONZE AGE) is the most detailed and extensive ancient DNA test series that employs ancient DNA from real ancient people who lived in each specific era to help you discover your genesis origins (50,000-300 BC). The name of the series is derived from the large number of gene pools that are mentioned in Genesis 10, including Canaan (Mesolithic Origins Test), Kush, Tiras, Shem, Riphath, and Gog and Magog (Early and Late Neolithic Origin Tests). What will I get? Included in this test series are our six best tests: Paleolithic Origins ( Basic : 5 Gene pools and 10 cultures. Advanced: 8 Gene pools and 22 cultures) Mesolithic Origins ( Basic : 5 Gene pools and 10 cultures. Advanced : 8 Gene pools and 22 cultures) Early Neolithic Origins ( Basic : 6 Gene pools and 9 cultures. Advanced : 8 Gene pools and 22 cultures) Late Neolithic Origins ( Basic : 6 Gene pools and 9 cultures. Advanced : 8 Gene pools and 22 cultures) Copper Origins ( Basic : 5 Gene pools and 10 cultures. Advanced : 8 Gene pools and 22 cultures) Bronze Origins ( Basic : 6 Gene pools and 7 cultures. Advanced : 8 Gene pools and 25 cultures) Overall, our Basic tests include 21 Gene Pools and 55 cultures, and our Advanced tests include 40 Gene Pools and 135 cultures. How is your test different from other tests? How does it work? With our revolutionary paleogenomics technology, we've embarked on a groundbreaking journey into the past, unraveling the mysteries of ancient civilizations like never before. Through the meticulous analysis of a unique set of mutations present in thousands of ancient individuals who lived between 50,000 and 300 BC, we identified regional signatures that represent the ancient ancestries of each era, which we call gene pools. The genome of everyone, ancient or modern person, is represented as a combination of these gene pools (ranging from 0% to 100%). By calculating your ancient gene pools from each era and comparing you to hundreds of cultures around the world, we can connect you with your ancient ancestors. Our cutting-edge approach to paleogenomics allows us to delve deeper than any other test into the genetic makeup of ancient populations of each era and unlock the secrets of their origins, migrations, and interactions with one another. Why are ancient cultures different from one another if they lived at the same time? Because mating was mostly within tribes that did not interact with each other, over time, genetic differences were created between populations even if they lived at the same time. Therefore, different cultures have varying proportions of regional components, which allows us to characterize those cultures and compare their genetic makeup with yours. In that way, we can find, for example, the Bronze Age cultures that are most genetically similar to your Bronze Age genomic makeup. What is the difference between Basic and Advanced Tests? We designed our tests for beginners and advanced users. The beginner tests are cheaper and include fewer gene pools and cultures, while our advanced tests include the complete set of gene pools and cultures. Who developed the tests? All our tests were developed by Dr. Eran Elhaik, an expert in Population, medical, and evolutionary genomics with over 20 years of experience developing genetic tests, including Genographic's Geno 2.0 , GPS Origins , and Ancient DNA Origins . As a pioneer in the field, Dr. Elhaik's research has been published in prestigious scientific journals, earning him international acclaim for his contributions to advancing genomic science. His commitment to excellence and his unwavering dedication to scientific rigor ensure that our tests adhere to the highest standards of quality and accuracy. With Dr. Elhaik at the helm, you can trust that our tests are scientifically rigorous and meticulously designed to provide you with the most comprehensive insights into your genetic heritage.",
+    "url": "https://www.geneplaza.com/app-store/10003"
+  },
+  {
+    "id": "10004",
+    "title": "Classical Antiquity Age Beginner DNA Package",
+    "study": "Anath Genomic Consultants AB",
+    "institution": null,
+    "category": [
+      "appearence"
+    ],
+    "price": 2900,
+    "short_description": "",
+    "long_description": "This a package that combines the Early and Late Classical Antiquity Age Beginner DNA applications. The Classical Antiquity applications share the same gene pools but have different cultures. Visit the Early Classical Antiquity Age home page Visit the Late Classical Antiquity Age home page",
+    "url": "https://www.geneplaza.com/app-store/10004"
+  },
+  {
+    "id": "10005",
+    "title": "Classical Antiquity Age Advanced DNA Package",
+    "study": "Anath Genomic Consultants AB",
+    "institution": null,
+    "category": [
+      "appearence"
+    ],
+    "price": 3900,
+    "short_description": "",
+    "long_description": "This a package that combines the Early and Late Classical Antiquity Age Advanced DNA applications. The Classical Antiquity applications share the same gene pools but have different cultures. Visit the Early Classical Antiquity Age home page Visit the Late Classical Antiquity Age home page",
+    "url": "https://www.geneplaza.com/app-store/10005"
+  }
+]

@@ -1,0 +1,88 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  validate:
+    name: Validate, build and link-check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install
+        run: |
+          python -m pip install --quiet --upgrade pip
+          pip install --quiet -r requirements.txt
+          cd site && npm install --no-audit --no-fund --silent
+
+      # 1. Unit tests: every rule that once shipped as a bug
+      - name: Unit tests
+        run: python -m pytest tests/ -q
+
+      # 2. Markdown gate: citations, CTAs, framing, tone, YAML
+      - name: Validate posts
+        run: python tools/validate_post.py --dir site/content
+
+      # 3. Build gate: does it render, is any page empty, do links resolve
+      - name: Build and link-check
+        run: python tools/build_check.py --site site
+
+      # 4. App coverage: no in-store app left without a post
+      - name: App coverage report
+        run: python tools/app_catalogue.py --coverage --posts site/content
+        continue-on-error: true   # informational: unwritten apps are not a failure
+
+      - name: Upload built site
+        uses: actions/upload-artifact@v4
+        with:
+          name: site
+          path: site/_site
+          retention-days: 7
+
+  guard:
+    name: Deployment invariants
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # These are routing/config invariants the post validator cannot see.
+      # Content rules live in validate_post.py, which is type-aware - do not
+      # duplicate them here with blunter greps.
+
+      - name: Image paths must be under /blog/
+        run: |
+          if grep -rn "/images/blog/" site/content --include=*.md; then
+            echo "::error::Use /blog/images/... - anything outside /blog/* falls through to the Ember SPA and 404s"
+            exit 1
+          fi
+
+      - name: pathPrefix must stay "/"
+        run: |
+          if grep -qE 'pathPrefix:\s*"/blog' site/eleventy.config.js; then
+            echo "::error::permalinks already contain blog/ - pathPrefix /blog/ produces /blog/blog/..."
+            exit 1
+          fi
+
+      - name: Build output must be rooted at blog/
+        run: |
+          cd site && npm install --no-audit --no-fund --silent && npx eleventy
+          if [ ! -d _site/blog ]; then
+            echo "::error::expected _site/blog/ - deploy syncs _site/ to the bucket root"
+            exit 1
+          fi
+          extra=$(find _site -mindepth 1 -maxdepth 1 ! -name blog | head)
+          if [ -n "$extra" ]; then
+            echo "::error::files outside _site/blog would land at the domain root: $extra"
+            exit 1
+          fi

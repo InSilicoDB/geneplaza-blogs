@@ -1,0 +1,22 @@
+---
+permalink: "blog/sitemap.xml"
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+{%- for post in collections.posts %}
+  <url>
+    <loc>https://www.geneplaza.com{{ post.url }}</loc>
+    <lastmod>{{ post.data.updated or post.date | isoDate }}</lastmod>
+    {%- for alt in collections.posts %}
+    {%- if post.data.translation_key and alt.data.translation_key == post.data.translation_key %}
+    <xhtml:link rel="alternate" hreflang="{{ alt.data.lang }}" href="https://www.geneplaza.com{{ alt.url }}"/>
+    {%- endif %}
+    {%- endfor %}
+  </url>
+{%- endfor %}
+  <url>
+    <loc>https://www.geneplaza.com/blog/</loc>
+  </url>
+</urlset>

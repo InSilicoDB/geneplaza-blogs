@@ -1,0 +1,71 @@
+---
+permalink: "blog/index.html"
+eleventyExcludeFromCollections: true
+title: Genetics, explained from the papers
+description: Posts about what your DNA can and cannot tell you — each one built on the peer-reviewed study behind a GenePlaza app.
+---
+{% extends "base.njk" %}
+
+{% block styles %}
+.hero{background:var(--secondary);padding:56px 0 52px;border-bottom:1px solid var(--line)}
+.hero h1{font-size:2.5rem;margin:0 0 12px;max-width:16ch}
+.hero p{font-size:1.12rem;color:var(--text);margin:0;max-width:60ch;font-weight:300}
+.stats{display:flex;gap:10px;flex-wrap:wrap;margin-top:26px}
+.stat{background:#fff;border:1px solid var(--line);border-radius:5px;padding:10px 16px}
+.stat b{display:block;font-size:1.5rem;color:var(--primary);line-height:1.15}
+.stat span{font-size:.78rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.note{margin:26px 0 0;padding:12px 16px;background:#fff;border:1px solid var(--warning);
+  border-left:4px solid var(--warning);border-radius:4px;font-size:.88rem;color:var(--text)}
+section.lang{padding:44px 0 0}
+section.lang h2{font-size:.8rem;text-transform:uppercase;letter-spacing:.09em;
+  color:var(--muted);margin:0 0 4px;font-weight:600}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:0 34px}
+.entry{border-bottom:1px solid var(--line);padding:16px 0}
+.entry a{color:var(--ink);text-decoration:none;font-weight:600;font-size:1.02rem;
+  line-height:1.35;display:block;margin-bottom:6px}
+.entry a:hover{color:var(--primary)}
+.entry .tags{display:flex;gap:6px;flex-wrap:wrap}
+{% endblock %}
+
+{% block body %}
+<div class="hero">
+  <div class="wrap">
+    <h1>Genetics, explained from the papers</h1>
+    <p>Every post is built on the peer-reviewed study behind a GenePlaza app — with the
+       effect sizes, the limitations, and what the result cannot tell you.</p>
+    {%- set en = [] %}{% set fr = [] %}{% set nl = [] %}
+    {%- for p in collections.all %}
+      {%- if p.data.lang == "fr" %}{% set fr = (fr.push(p), fr) %}
+      {%- elif p.data.lang == "nl" %}{% set nl = (nl.push(p), nl) %}
+      {%- else %}{% set en = (en.push(p), en) %}{% endif %}
+    {%- endfor %}
+    <div class="stats">
+      <div class="stat"><b>{{ collections.all | length }}</b><span>posts</span></div>
+      <div class="stat"><b>{{ en | length }}</b><span>English</span></div>
+      <div class="stat"><b>{{ fr | length }}</b><span>Français</span></div>
+      <div class="stat"><b>{{ nl | length }}</b><span>Nederlands</span></div>
+    </div>
+    <p class="note"><b>Local preview.</b> Five illustrations are not yet generated
+      (OpenAI billing cap), so those image boxes render empty. All text is final.</p>
+  </div>
+</div>
+
+<div class="wrap">
+{% for group in [["English", en], ["Français", fr], ["Nederlands", nl]] %}
+  <section class="lang">
+    <h2>{{ group[0] }} — {{ group[1] | length }} posts</h2>
+    <div class="grid">
+    {%- for p in group[1] %}
+      <div class="entry">
+        <a href="{{ p.url }}">{{ p.data.title }}</a>
+        <div class="tags">
+          <span class="pill {{ p.data.type or 'app' }}">{{ p.data.type or "app" }}</span>
+          {%- if p.data.app_id %}<span class="pill">app {{ p.data.app_id }}</span>{% endif %}
+        </div>
+      </div>
+    {%- endfor %}
+    </div>
+  </section>
+{% endfor %}
+</div>
+{% endblock %}

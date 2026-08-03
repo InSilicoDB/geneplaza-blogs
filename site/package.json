@@ -1,0 +1,13 @@
+{
+  "name": "geneplaza-blog",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy",
+    "check": "python3 ../tools/validate_post.py --dir content && python3 ../tools/build_check.py --site .",
+    "deploy": "npm run check && npm run build && aws s3 sync _site/ s3://geneplaza-blog-static/ --delete"
+  },
+  "devDependencies": { "@11ty/eleventy": "^2.0.1" },
+  "license": "UNLICENSED"
+}

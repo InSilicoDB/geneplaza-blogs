@@ -1,0 +1,83 @@
+{% extends "base.njk" %}
+
+{% block head %}
+{%- for post in collections.all %}
+{%- if post.data.translation_key and post.data.translation_key == translation_key %}
+<link rel="alternate" hreflang="{{ post.data.lang }}" href="https://www.geneplaza.com{{ post.url }}">
+{%- endif %}
+{%- endfor %}
+{% endblock %}
+
+{% block styles %}
+article{max-width:var(--readw);margin:0 auto;padding:44px 24px 0}
+.langbar{display:flex;gap:9px;flex-wrap:wrap;margin:0 0 26px}
+.langbar a{display:inline-flex;align-items:center;gap:7px;text-decoration:none;
+  border:1px solid var(--line);background:#fff;border-radius:99px;padding:5px 14px;
+  color:var(--primary);font-size:.86rem;font-weight:500;transition:.15s}
+.langbar a:hover{border-color:var(--primary);background:#faf9fc}
+.langbar .code{font-size:.68rem;letter-spacing:.07em;text-transform:uppercase;
+  color:var(--muted);border:1px solid var(--line);border-radius:3px;padding:0 4px}
+article h1{font-size:2.35rem;margin:0 0 14px}
+@media(max-width:720px){article h1{font-size:1.75rem}}
+.meta{display:flex;gap:9px;flex-wrap:wrap;align-items:center;
+  font-size:.83rem;color:var(--muted);margin-bottom:26px}
+.lead{font-size:1.12rem;line-height:1.62;color:var(--ink);font-weight:300;
+  border-left:3px solid var(--success);padding-left:18px;margin:0 0 34px}
+article h2{font-size:1.42rem;margin:2.7rem 0 .8rem}
+article h3{font-size:1.12rem;margin:2rem 0 .5rem}
+article p{margin:0 0 1.25rem}
+article img{max-width:100%;height:auto;border-radius:4px;background:var(--secondary);
+  border:1px solid var(--line);display:block;margin:1.8rem auto .5rem}
+article em{color:var(--muted)}
+blockquote{margin:1.9rem 0;padding:14px 22px;background:var(--secondary);
+  border-left:3px solid var(--primary);border-radius:0 4px 4px 0;
+  font-size:1.05rem;color:var(--ink);font-style:italic}
+blockquote p{margin:0}
+table{border-collapse:collapse;width:100%;margin:1.8rem 0;font-size:.93rem}
+th,td{border:1px solid var(--line);padding:10px 13px;text-align:left;vertical-align:top}
+th{background:var(--secondary);color:var(--ink);font-weight:600}
+code{background:var(--secondary);padding:1px 6px;border-radius:3px;font-size:.88em}
+hr{border:0;border-top:1px solid var(--line);margin:2.6rem 0}
+.endnote{margin-top:2.4rem;padding-top:1.3rem;border-top:1px solid var(--line);
+  color:var(--muted);font-size:.85rem}
+.cta-app{margin:2.6rem 0 0;padding:22px 24px;background:var(--secondary);border-radius:6px}
+.cta-app b{color:var(--ink)}
+{% endblock %}
+
+{% block body %}
+<article>
+  {%- set LABEL = { en: "Read this in English", fr: "Lisez-le en français", nl: "Lees dit in het Nederlands" } %}
+  {%- set others = [] %}
+  {%- for post in collections.all %}
+    {%- if translation_key and post.data.translation_key == translation_key and post.data.lang != lang %}
+      {%- set others = (others.push(post), others) %}
+    {%- endif %}
+  {%- endfor %}
+  {%- if others | length %}
+  <nav class="langbar" aria-label="Other languages">
+    {%- for post in others %}
+    <a href="{{ post.url }}" hreflang="{{ post.data.lang }}" lang="{{ post.data.lang }}">
+      <span class="code">{{ post.data.lang }}</span>{{ LABEL[post.data.lang] or "Read this version" }}
+    </a>
+    {%- endfor %}
+  </nav>
+  {%- endif %}
+
+  <h1>{{ title }}</h1>
+  <div class="meta">
+    <span class="pill {{ type or 'app' }}">{{ type or 'app' }}</span>
+    {% if app_id %}<span class="pill">app {{ app_id }}</span>{% endif %}
+    <span>{{ page.date | date }}</span>
+    {% if study %}<span>· {{ study }}</span>{% endif %}
+  </div>
+  {% if description %}<p class="lead">{{ description }}</p>{% endif %}
+
+  {{ content | safe }}
+
+  <div class="endnote">
+    Scores in GenePlaza apps tell you what your result <b>would have been if you had
+    participated in the original study</b>, within that cohort. They are not a statement
+    that your personal risk is raised or lowered, and they are not medical advice.
+  </div>
+</article>
+{% endblock %}
