@@ -17,7 +17,7 @@ Chez les moins de trente ans, 24,2 % se décrivent comme des personnes du matin.
 
 Même espèce, à peu près le même pool génétique, et une réponse totalement différente. Ce qui fait de quelqu'un un lève-tôt n'est pas fixé à la conception.
 
-![Aquarelle d'une cuisine à l'aube, une personne éveillée](/blog/images/morning-person/dawn-kitchen.png)
+![Aquarelle d'une cuisine à l'aube, une personne éveillée](/blog/images/morning-person/dawn-kitchen.jpg)
 *Le chronotype se déplace au fil d'une vie. Le génome, non.*
 
 ## L'étude

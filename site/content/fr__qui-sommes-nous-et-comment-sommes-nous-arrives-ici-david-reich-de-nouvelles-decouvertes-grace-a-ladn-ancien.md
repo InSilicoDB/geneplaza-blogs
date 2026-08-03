@@ -18,7 +18,7 @@ Entre 2750 et 2500 avant notre ère environ, un style de poterie très reconnais
 
 La réponse honnête s'est révélée être : les deux, selon l'endroit où l'on regarde.
 
-![Aquarelle d'un vase campaniforme et de son mobilier funéraire](/blog/images/bell-beaker/beaker-burial.png)
+![Aquarelle d'un vase campaniforme et de son mobilier funéraire](/blog/images/bell-beaker/beaker-burial.jpg)
 *Le « paquet » campaniforme : un vase caractéristique, un équipement d'archer, des outils en cuivre. Il a traversé l'Europe par deux mécanismes entièrement différents.*
 
 ## 400 génomes

@@ -17,7 +17,7 @@ Among people under thirty, 24.2% describe themselves as morning people. Among pe
 
 That is the same species, largely the same gene pool, and a completely different answer. Whatever makes someone a lark, it is not fixed at conception.
 
-![Watercolour of a kitchen at dawn, one person awake](/blog/images/morning-person/dawn-kitchen.png)
+![Watercolour of a kitchen at dawn, one person awake](/blog/images/morning-person/dawn-kitchen.jpg)
 *Chronotype shifts across a lifetime. The genome does not.*
 
 ## The study

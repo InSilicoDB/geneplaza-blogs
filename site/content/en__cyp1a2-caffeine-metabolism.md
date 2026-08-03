@@ -14,7 +14,7 @@ permalink: "blog/en/cyp1a2-caffeine-metabolism/index.html"
 
 In the coffee houses of 17th-century London, a penny bought you a cup and a seat, and the regulars argued about politics until the candles burned down. Some of them, presumably, went home and slept perfectly well. Others lay awake composing pamphlets. Neither group knew that the difference was partly written into their livers.
 
-![A 17th-century London coffee house](/blog/images/caffeine/coffee-house.png)
+![A 17th-century London coffee house](/blog/images/caffeine/coffee-house.jpg)
 *The penny universities. Three centuries before anyone could name CYP1A2.*
 
 ## The enzyme that does most of the work
@@ -31,7 +31,7 @@ The larger picture came from a meta-analysis of genome-wide association studies 
 
 The interpretation the authors favour is worth holding onto. These variants do not encode a *taste* for coffee. They appear to shape how much caffeine a person needs to drink to reach the effect they are chasing, and how long the cost of that drink stays with them. People titrate their own dose, mostly without knowing it.
 
-![Diagram of caffeine clearance in fast and slow metabolisers](/blog/images/caffeine/caffeine-clearance.png)
+![Diagram of caffeine clearance in fast and slow metabolisers](/blog/images/caffeine/caffeine-clearance.jpg)
 *Two people, one espresso, very different afternoons.*
 
 ## Effect sizes, honestly

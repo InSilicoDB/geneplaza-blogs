@@ -17,7 +17,7 @@ Van de mensen onder de dertig noemt 24,2% zichzelf een ochtendmens. Van de mense
 
 Dezelfde soort, grotendeels dezelfde genenpoel, en een volstrekt ander antwoord. Wat iemand tot een vroege vogel maakt, ligt niet vast bij de conceptie.
 
-![Aquarel van een keuken bij zonsopgang, één persoon wakker](/blog/images/morning-person/dawn-kitchen.png)
+![Aquarel van een keuken bij zonsopgang, één persoon wakker](/blog/images/morning-person/dawn-kitchen.jpg)
 *Het chronotype verschuift gedurende een mensenleven. Het genoom niet.*
 
 ## Het onderzoek

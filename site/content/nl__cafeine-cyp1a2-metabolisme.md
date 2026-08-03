@@ -15,7 +15,7 @@ permalink: "blog/nl/cafeine-cyp1a2-metabolisme/index.html"
 
 In de Londense koffiehuizen van de zeventiende eeuw kocht een penny u een kop en een zitplaats, en de vaste klanten bespraken de politiek tot de kaarsen opgebrand waren. Sommigen gingen naar huis en sliepen uitstekend. Anderen lagen wakker pamfletten te bedenken. Geen van hen wist dat het verschil deels in hun lever zat.
 
-![Een Londens koffiehuis uit de zeventiende eeuw](/blog/images/caffeine/coffee-house.png)
+![Een Londens koffiehuis uit de zeventiende eeuw](/blog/images/caffeine/coffee-house.jpg)
 *De "penny-universiteiten". Drie eeuwen voordat iemand CYP1A2 kon benoemen.*
 
 ## Het enzym dat het meeste werk doet
@@ -32,7 +32,7 @@ Het grotere beeld kwam uit een meta-analyse van genoombrede associatiestudies on
 
 De uitleg die de auteurs voorstaan is het onthouden waard. Deze varianten coderen geen *voorkeur* voor koffie. Ze bepalen eerder hoeveel cafeïne iemand nodig heeft voor het gewenste effect, en hoe lang de prijs van dat kopje blijft hangen. Mensen doseren zichzelf, meestal zonder het te weten.
 
-![Cafeïneafbraak bij een snelle en een trage metaboliseerder](/blog/images/caffeine/caffeine-clearance.png)
+![Cafeïneafbraak bij een snelle en een trage metaboliseerder](/blog/images/caffeine/caffeine-clearance.jpg)
 *Twee mensen, één espresso, heel verschillende middagen.*
 
 ## De effectgroottes, eerlijk

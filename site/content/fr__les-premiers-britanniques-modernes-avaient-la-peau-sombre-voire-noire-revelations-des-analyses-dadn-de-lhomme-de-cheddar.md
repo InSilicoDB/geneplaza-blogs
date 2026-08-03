@@ -16,7 +16,7 @@ permalink: "blog/fr/les-premiers-britanniques-modernes-avaient-la-peau-sombre-vo
 
 En 1903, des ouvriers creusent une tranchée de drainage dans la grotte de Gough, à Cheddar, dans le Somerset. Ils tombent sur un squelette. On le baptise l'homme de Cheddar, on annonce qu'il a peut-être 80 000 ans, et on se trompe d'un facteur huit.
 
-![Aquarelle de la grotte de Gough, Cheddar Gorge](/blog/images/cheddar-man/goughs-cave.png)
+![Aquarelle de la grotte de Gough, Cheddar Gorge](/blog/images/cheddar-man/goughs-cave.jpg)
 *La grotte de Gough, dans le Somerset. Fraîche, stable, humide — les conditions idéales pour conserver de l'ADN pendant dix millénaires.*
 
 Il en avait environ 10 000. Il mesurait 166 centimètres. Il est mort dans la vingtaine. Et pendant un siècle, personne n'a su à quoi il ressemblait vraiment.

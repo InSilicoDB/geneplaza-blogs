@@ -15,7 +15,7 @@ permalink: "blog/fr/cafeine-cyp1a2-metabolisme/index.html"
 
 Dans les cafés londoniens du XVIIᵉ siècle, un penny donnait droit à une tasse et à une place assise, et les habitués refaisaient le monde jusqu'à ce que les chandelles s'éteignent. Certains rentraient chez eux et dormaient parfaitement. D'autres restaient éveillés à rédiger des pamphlets. Aucun ne savait que la différence tenait en partie à leur foie.
 
-![Un café londonien du XVIIᵉ siècle](/blog/images/caffeine/coffee-house.png)
+![Un café londonien du XVIIᵉ siècle](/blog/images/caffeine/coffee-house.jpg)
 *Les « universités à un penny ». Trois siècles avant que quiconque puisse nommer CYP1A2.*
 
 ## L'enzyme qui fait le gros du travail
@@ -32,7 +32,7 @@ Le tableau d'ensemble vient d'une méta-analyse d'études d'association pangéno
 
 L'interprétation retenue par les auteurs mérite d'être gardée en tête. Ces variants ne codent pas un *goût* pour le café. Ils semblent déterminer la quantité de caféine nécessaire pour atteindre l'effet recherché, et la durée pendant laquelle le prix de cette tasse reste dans l'organisme. Chacun ajuste sa propre dose, le plus souvent sans le savoir.
 
-![Élimination de la caféine chez un métaboliseur rapide et un métaboliseur lent](/blog/images/caffeine/caffeine-clearance.png)
+![Élimination de la caféine chez un métaboliseur rapide et un métaboliseur lent](/blog/images/caffeine/caffeine-clearance.jpg)
 *Deux personnes, un espresso, deux après-midis très différents.*
 
 ## Les tailles d'effet, honnêtement

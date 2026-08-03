@@ -16,7 +16,7 @@ Between roughly 2750 and 2500 BC, a distinctive style of pottery — bell-shaped
 
 The honest answer turned out to be: both, depending on where you look.
 
-![Watercolour of a Bell Beaker vessel and grave goods](/blog/images/bell-beaker/beaker-burial.png)
+![Watercolour of a Bell Beaker vessel and grave goods](/blog/images/bell-beaker/beaker-burial.jpg)
 *The Bell Beaker package: a distinctive vessel, archery equipment, copper tools. It travelled across Europe by two entirely different mechanisms.*
 
 ## 400 genomes
