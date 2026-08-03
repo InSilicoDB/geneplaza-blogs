@@ -73,6 +73,11 @@ jobs:
             echo "::error::permalinks already contain blog/ - pathPrefix /blog/ produces /blog/blog/..."
             exit 1
           fi
+          # Also catch it passed as a CLI flag in any workflow.
+          if grep -rn -- "--pathprefix" .github/workflows/; then
+            echo "::error::do not pass --pathprefix. Permalinks already contain blog/ and the site is served from a custom domain, so the prefix must stay '/'."
+            exit 1
+          fi
 
       # 1. Automatically fetch the repository base path ('/geneplaza-blogs')
       - name: Setup Pages
@@ -81,7 +86,7 @@ jobs:
 
       - name: Build output must be rooted at blog/
         run: |
-          cd site && npm install --no-audit --no-fund --silent && npx eleventy npx eleventy --pathprefix="${{ steps.pages.outputs.base_path }}/blog/"
+          cd site && npm install --no-audit --no-fund --silent && npx eleventy
           if [ ! -d _site/blog ]; then
             echo "::error::expected _site/blog/ - deploy syncs _site/ to the bucket root"
             exit 1
