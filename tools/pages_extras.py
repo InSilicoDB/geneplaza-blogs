@@ -123,7 +123,16 @@ def main():
         f.write(ROOT_INDEX.format(domain=args.domain))
     print("root index -> /blog/")
 
-    # 4. 404
+    # 4. robots.txt at the ROOT - crawlers only read /robots.txt, never /blog/robots.txt
+    with open(os.path.join(out, "robots.txt"), "w", encoding="utf-8") as f:
+        f.write(
+            "User-agent: *\n"
+            "Allow: /\n\n"
+            f"Sitemap: https://{args.domain}/blog/sitemap.xml\n"
+        )
+    print("root robots.txt written")
+
+    # 5. 404
     with open(os.path.join(out, "404.html"), "w", encoding="utf-8") as f:
         f.write(NOT_FOUND)
     print("404.html written")
