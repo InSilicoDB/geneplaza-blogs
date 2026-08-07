@@ -3,10 +3,8 @@
   "url": "https://blog.geneplaza.com",
   "canonicalHost": "https://www.geneplaza.com",
   "analytics": {
-    "provider": "none",
-    "ga4MeasurementId": "",
-    "plausibleDomain": "",
-    "umamiSrc": "",
-    "umamiWebsiteId": ""
+    "provider": "umami",
+    "umamiSrc": "https://analytics.geneplaza.com/gp.js",
+    "umamiWebsiteId": "f9b20801-26ed-459d-aa4d-b23091d05550"
   }
 }
