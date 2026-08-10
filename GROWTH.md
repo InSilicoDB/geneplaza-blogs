@@ -124,12 +124,39 @@ likely place to get the domain flagged.
 | "What do K numbers mean?" | `/blog/en/how-to-read-admixture-bar-charts/` |
 | "Am I related to Cheddar Man?" | `/blog/en/cheddar-man-dark-skin-blue-eyes/` |
 
+### Volume
+
+**2–3 answers/day in week 1, across all Tier 1 subs combined** — not per sub.
+Rising to 3–5/day from week 2.
+
+Why so low: Reddit's spam filters are harshest on new accounts, shadowbans are
+silent, and a good answer costs 10–20 minutes. Supply of questions is not the
+constraint; quality and account safety are.
+
+| Week | Answers/day | Cumulative | Links |
+|---|---|---|---|
+| 1 | 2–3 | ~18 | none |
+| 2 | 3–5 | ~45 | none |
+| 3 | 3–5 | ~75 | first links, sparingly |
+| 4+ | 3–5 | — | ~1 per 9 comments |
+
+### Daily routine (~1 hour)
+
+1. Sort by **New**, not Hot — 6-hour-old threads with 3 comments beat 200-comment pile-ons
+2. Pick 2–3 you can genuinely improve; skip anything already well answered
+3. Answer in the comment, DOI inline
+4. Upvote and leave short replies elsewhere — an account that only posts long expert
+   answers reads as content marketing, because it usually is
+
 ### Four weeks
 
-- [ ] **Week 1** — create/age account, comment only, no links, reach 100+ karma
-- [ ] **Week 2** — 3–5 substantive answers/day, still no links
+- [ ] **Week 1** — 2–3/day, comment only, no links, reach 100+ karma
+- [ ] **Week 2** — 3–5/day, still no links
 - [ ] **Week 3** — first links, only where they add real depth
 - [ ] **Week 4** — check Umami referrers. Reddit visible? Scale. Not visible? Diagnose, do not persist on faith.
+
+**Leading indicator:** not comments posted, but how many get replies or awards. If
+nothing engages after two weeks, the answers are wrong — rewrite rather than post more.
 
 ---
 
