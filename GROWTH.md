@@ -59,13 +59,59 @@ Highest return on the list and it is a day of Ember work.
 
 ### Targets
 
-| Subreddit | Size | Angle |
-|---|---|---|
-| r/23andMe | ~250k | Daily "what does this mean?" posts |
-| r/AncestryDNA | ~150k | "My percentages changed!" |
-| r/genealogy | ~300k | Ancient DNA, migrations, era posts |
-| r/genetics | ~90k | GWAS limitations, effect sizes |
-| r/AskHistorians | large, strict | Bell Beaker, Cheddar Man, Rome — impeccable sourcing only |
+Sizes are approximate — Reddit blocks unauthenticated API access, so these are not
+verified. Check each sub's rules before posting; several ban commercial links.
+
+**Tier 1 — core audience, post here weekly**
+
+| Subreddit | Why |
+|---|---|
+| r/23andMe | Highest volume of "what does this mean?" posts. Primary target. |
+| r/AncestryDNA | "My percentages changed" — we have the definitive answer |
+| r/DNA | Smaller, mixed, lower noise |
+| r/dnatesting | Comparison shopping; people deciding what to buy |
+| r/GenealogyDNA | More technical than r/genealogy; segment/admixture questions |
+
+**Tier 2 — adjacent, post when the topic fits**
+
+| Subreddit | Why |
+|---|---|
+| r/genealogy | Large. Ancient DNA and migration posts land well. |
+| r/genetics | More expert. Good for effect-size and GWAS-limitation points. |
+| r/Anthropology | Era posts, population replacement |
+| r/Archaeology | Cheddar Man, Bell Beaker, Göbekli Tepe |
+| r/IndoEuropean | Niche but very engaged on steppe/Yamnaya. Our Late Neolithic post fits exactly. |
+
+**Tier 3 — high standards, high reward**
+
+| Subreddit | Why |
+|---|---|
+| r/AskHistorians | Brutally moderated. A surviving answer carries real authority. Sourcing must be impeccable and no promotion at all. |
+| r/askscience | Similar. Flaired experts only for top-level answers in practice. |
+
+**Tier 4 — regional, currently unexploited**
+
+We have 23 FR/NL posts and near-empty SERPs in those languages. Nobody is serving
+these communities on genetics.
+
+| Subreddit | Language |
+|---|---|
+| r/belgium | NL/FR/EN |
+| r/thenetherlands, r/Netherlands | NL |
+| r/france | FR |
+| r/Genealogie (if active) | FR |
+
+**Handle with care — hostile to our message**
+
+| Subreddit | Risk |
+|---|---|
+| r/MTHFR | Community is heavily invested in methylation protocols. The ACMG guideline contradicts their premise. Expect downvotes and hostility. **High value, high risk — do not lead with this one.** |
+| r/Biohackers | Same dynamic. COMT/MAOA folk-genetics is load-bearing there. |
+| r/Nootropics | As above |
+
+Posting the ACMG position in r/MTHFR is defensible and genuinely useful, but do it
+only once there is an established account history elsewhere. It is the single most
+likely place to get the domain flagged.
 
 ### Recurring questions we already answer
 
