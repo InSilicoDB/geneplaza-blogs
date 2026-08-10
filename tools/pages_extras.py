@@ -40,11 +40,11 @@ NOT_FOUND = """<!DOCTYPE html>
 <title>Page not found — GenePlaza Blog</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-body{{margin:0;font-family:"Work Sans",Helvetica,Arial,sans-serif;color:#4a4a4a;
- display:flex;min-height:100vh;align-items:center;justify-content:center;text-align:center}}
-div{{max-width:32rem;padding:2rem}}
-h1{{color:#000;font-size:1.8rem;margin:0 0 .6rem}}
-a{{color:#44355b}}
+body{margin:0;font-family:"Work Sans",Helvetica,Arial,sans-serif;color:#4a4a4a;
+ display:flex;min-height:100vh;align-items:center;justify-content:center;text-align:center}
+div{max-width:32rem;padding:2rem}
+h1{color:#000;font-size:1.8rem;margin:0 0 .6rem}
+a{color:#44355b}
 </style>
 </head>
 <body>
