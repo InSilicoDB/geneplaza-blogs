@@ -3,7 +3,7 @@ title: "4.500 kinderen gaven op hun negende een buisje bloed. Wat dat voorspelde
 type: app
 description: Een langlopend geboortecohort bij Bristol vond dat ontstekingswaarden gemeten in de kindertijd samenhingen met depressie negen jaar later. Wat die bevinding betekent, wat de genetica sindsdien heeft toegevoegd, en hoeveel ervan geldt voor één persoon.
 date: 2018-07-24
-updated: 2024-06-01
+updated: 2026-08-10
 lang: nl
 translation_key: depression-inflammation
 tags: ["post", "depressie", "ontsteking", "IL-6", "genetica"]

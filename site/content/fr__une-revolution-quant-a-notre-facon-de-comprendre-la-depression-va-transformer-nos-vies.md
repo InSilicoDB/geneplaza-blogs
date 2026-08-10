@@ -3,7 +3,7 @@ title: "4 500 enfants ont donné une goutte de sang à neuf ans. Ce qu'elle anno
 type: app
 description: Une cohorte de naissance suivie près de Bristol a montré que le niveau d'inflammation mesuré dans l'enfance était associé à la dépression neuf ans plus tard. Ce que ce résultat signifie, ce que la génétique y a ajouté depuis, et ce qu'il en reste à l'échelle d'une seule personne.
 date: 2018-07-24
-updated: 2024-06-01
+updated: 2026-08-10
 lang: fr
 translation_key: depression-inflammation
 tags: ["post", "dépression", "inflammation", "IL-6", "génétique"]

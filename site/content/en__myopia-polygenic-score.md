@@ -2,7 +2,7 @@
 title: "Half the World Is Projected to Be Short-Sighted by 2050. The Genes Did Not Change"
 type: app
 description: Myopia is strongly heritable and rising faster than any gene pool can move. A polygenic score built from 30,217 variants shows where your DNA sits — and the paper it comes from is mainly about why such scores travel badly between populations.
-date: 2024-06-29
+date: 2026-06-29
 lang: en
 translation_key: myopia
 tags: ["post", "myopia", "short-sightedness", "polygenic score", "PGS001994"]

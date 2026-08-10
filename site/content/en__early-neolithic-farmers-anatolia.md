@@ -2,7 +2,7 @@
 title: "Farming Didn't Spread Across Europe. Farmers Did"
 type: science
 description: The oldest debate in European prehistory — whether agriculture arrived as an idea or as people — was settled by DNA. Early European farmers descend largely from a population that entered from Anatolia, and modern Europeans are a mixture of at least three ancient groups.
-date: 2024-06-22
+date: 2026-06-22
 lang: en
 translation_key: early-neolithic
 tags: ["post", "ancient DNA", "Neolithic", "farmers", "Anatolia"]

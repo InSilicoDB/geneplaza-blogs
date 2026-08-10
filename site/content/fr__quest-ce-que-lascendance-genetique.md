@@ -3,7 +3,7 @@ title: "Votre résultat d'ascendance a changé et personne n'a touché à votre 
 type: app
 description: Les pourcentages d'ascendance génétique bougent quand les entreprises mettent à jour leurs panels de référence, et ce n'est pas un défaut. Ce que mesure réellement une estimation d'ascendance, pourquoi « ascendance génétique » et « ethnicité » sont deux choses distinctes, et ce que le chiffre peut honnêtement vous dire.
 date: 2018-07-24
-updated: 2024-06-01
+updated: 2026-08-10
 lang: fr
 translation_key: what-is-genetic-ancestry
 tags: ["post", "ascendance", "admixture", "panels de référence", "génétique des populations"]

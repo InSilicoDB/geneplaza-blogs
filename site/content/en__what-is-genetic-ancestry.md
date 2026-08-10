@@ -3,7 +3,7 @@ title: "Your Ancestry Result Changed and Nobody Edited Your DNA"
 type: app
 description: Genetic ancestry percentages shift when companies update their reference panels, and that is not a bug. Here is what an ancestry estimate actually measures, why 'genetic ancestry' and 'ethnicity' are different things, and what the number can honestly tell you.
 date: 2018-07-24
-updated: 2024-06-01
+updated: 2026-08-10
 lang: en
 translation_key: what-is-genetic-ancestry
 tags: ["post", "ancestry", "admixture", "reference panels", "population genetics"]

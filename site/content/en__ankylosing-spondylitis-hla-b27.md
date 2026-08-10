@@ -2,7 +2,7 @@
 title: "Most People Carrying the Ankylosing Spondylitis Gene Never Develop It"
 type: app
 description: HLA-B27 is present in the large majority of people with ankylosing spondylitis, and in millions who will never have a symptom. What the genetics of spondyloarthritis actually shows, and why diagnosis still rests on a rheumatologist rather than a genotype.
-date: 2024-06-15
+date: 2026-06-15
 lang: en
 translation_key: spondyloarthritis
 tags: ["post", "ankylosing spondylitis", "HLA-B27", "spondyloarthritis", "autoimmune"]

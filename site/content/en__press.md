@@ -3,7 +3,7 @@ title: "GenePlaza in the Press"
 type: announcement
 description: Press coverage, reviews and company milestones for GenePlaza, with links to the original articles.
 date: 2018-09-13
-updated: 2024-06-01
+updated: 2026-08-10
 lang: en
 translation_key: press
 tags: ["press", "about"]

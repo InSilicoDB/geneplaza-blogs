@@ -2,7 +2,7 @@
 title: "Children and Their Mothers Had the Same Bitter-Taste Gene. Only the Children Wanted More Sugar"
 type: app
 description: A study of 143 children and their mothers found that a variant in the TAS2R38 bitter receptor predicted sensitivity to a bitter compound in both groups — but predicted sweet preference only in the children. What changed was not the gene.
-date: 2024-06-08
+date: 2026-06-08
 lang: en
 translation_key: bitter-taste
 tags: ["post", "taste", "TAS2R38", "bitter", "PROP", "supertaster"]

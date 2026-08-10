@@ -2,7 +2,7 @@
 title: "Researchers Scanned 249,796 People for Obesity Genes. What They Found Explains About 1.5% of It"
 type: app
 description: The landmark BMI genome-wide association study confirmed 14 known loci and found 18 new ones, several near hypothalamic regulators of appetite. Together they account for a small fraction of why people differ in weight — which is the most useful thing about them.
-date: 2024-06-08
+date: 2026-06-08
 lang: en
 translation_key: bmi-genetics
 tags: ["post", "BMI", "obesity", "FTO", "MC4R", "GWAS"]

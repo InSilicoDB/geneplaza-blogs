@@ -3,7 +3,7 @@ title: "Un test ADN prédit 11 % du niveau d'études atteint. Les 89 % restants 
 type: app
 description: Les scores polygéniques du niveau d'études reposent désormais sur plus d'un million de personnes et prédisent une part réelle et reproductible des trajectoires. Voici la taille exacte de cette part, ce qu'elle ne contient pas, et pourquoi le chiffre s'effondre quand on compare des frères et sœurs.
 date: 2018-07-22
-updated: 2024-06-01
+updated: 2026-08-10
 lang: fr
 translation_key: intelligence-polygenic
 tags: ["post", "intelligence", "niveau d'études", "scores polygéniques", "GWAS"]

@@ -2,7 +2,7 @@
 title: "Vos 0,5 % ne sont probablement pas un ancêtre"
 type: science
 description: Les petits pourcentages d'ascendance sont lus comme des parents lointains et transformés en histoires de famille. Le plus souvent, c'est l'algorithme qui hésite. Comment faire la différence — et deux réglages de vos résultats que presque personne n'ouvre.
-date: 2024-07-06
+date: 2026-07-06
 lang: fr
 translation_key: small-percentages
 tags: ["post", "ascendance", "admixture", "panels de référence", "ascendance résiduelle"]

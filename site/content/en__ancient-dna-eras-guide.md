@@ -2,7 +2,7 @@
 title: "Your Ancestors Were Replaced More Often Than You Think. Here Is the Whole Sequence"
 type: science
 description: Paleolithic hunter-gatherers, Anatolian farmers, steppe herders, Bronze Age Britain, Imperial Rome — a guide to the population turnovers ancient DNA has documented, and which era test covers which.
-date: 2024-06-22
+date: 2026-06-22
 lang: en
 translation_key: ancient-dna-eras
 tags: ["post", "ancient DNA", "AADR", "human migration", "guide"]

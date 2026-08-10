@@ -3,7 +3,7 @@ title: "A DNA Test Can Predict 11% of How Far You Went in School. The Other 89% 
 type: app
 description: Polygenic scores for educational attainment now draw on more than a million people and predict a real, replicable slice of outcomes. Here is exactly how big that slice is, what it does not contain, and why the number falls apart when you compare siblings.
 date: 2018-06-05
-updated: 2024-06-01
+updated: 2026-08-10
 lang: en
 translation_key: intelligence-polygenic
 tags: ["post", "intelligence", "educational attainment", "polygenic scores", "GWAS"]

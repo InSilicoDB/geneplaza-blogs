@@ -2,7 +2,7 @@
 title: "Le gène qui donne à la coriandre un goût de savon n'en explique presque rien"
 type: app
 description: Un variant proche d'un groupe de gènes de récepteurs olfactifs est associé de façon fiable au goût savonneux de la coriandre. C'est aussi un effet minuscule, dans un trait façonné surtout par la cuisine et l'exposition. Les deux sont vrais ; le second est rarement raconté.
-date: 2024-06-08
+date: 2026-06-08
 lang: fr
 translation_key: cilantro-soap
 tags: ["post", "coriandre", "OR6A2", "goût", "rs72921001"]

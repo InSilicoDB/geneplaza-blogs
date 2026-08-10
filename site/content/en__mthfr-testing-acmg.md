@@ -2,7 +2,7 @@
 title: "The Professional Body for Medical Genetics Recommends Against MTHFR Testing. Here's Why That Matters"
 type: app
 description: MTHFR variants are among the most-tested and most-misunderstood in consumer genetics. The American College of Medical Genetics recommends against testing them in most clinical settings. What the gene actually does, and how to read a result honestly.
-date: 2024-06-15
+date: 2026-06-15
 lang: en
 translation_key: mthfr
 tags: ["post", "MTHFR", "homocysteine", "folate", "ACMG", "C677T"]

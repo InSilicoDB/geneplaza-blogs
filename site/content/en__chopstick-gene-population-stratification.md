@@ -2,7 +2,7 @@
 title: "In 1994, Two Geneticists Explained How You Could Discover a Gene for Using Chopsticks"
 type: science
 description: A study can find a real, statistically significant association between a genetic variant and a habit that has nothing to do with genetics. The mechanism is population stratification, and it is the reason two maps looking alike proves nothing.
-date: 2024-07-13
+date: 2026-07-13
 lang: en
 translation_key: chopstick-gene
 tags: ["post", "population stratification", "GWAS", "confounding", "PCA"]

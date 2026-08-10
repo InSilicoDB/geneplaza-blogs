@@ -2,7 +2,7 @@
 title: "Ibuprofen Is Cleared by an Enzyme That Roughly a Third of People Carry a Slower Version Of"
 type: app
 description: CYP2C9 metabolises most NSAIDs, and reduced-function variants are common. International prescribing guidelines already tell clinicians what to do about it — which makes this one of the few genetic results with a concrete, actionable meaning.
-date: 2024-06-15
+date: 2026-06-15
 lang: en
 translation_key: cyp2c9-nsaid
 tags: ["post", "CYP2C9", "NSAIDs", "pharmacogenomics", "CPIC", "ibuprofen"]

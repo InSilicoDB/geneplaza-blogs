@@ -2,7 +2,7 @@
 title: "Les enfants et leurs mères avaient le même gène du goût amer. Seuls les enfants voulaient plus de sucre"
 type: app
 description: Une étude sur 143 enfants et leurs mères a montré qu'un variant du récepteur amer TAS2R38 prédisait la sensibilité à un composé amer dans les deux groupes — mais ne prédisait la préférence pour le sucré que chez les enfants. Ce qui avait changé n'était pas le gène.
-date: 2024-06-08
+date: 2026-06-08
 lang: fr
 translation_key: bitter-taste
 tags: ["post", "goût", "TAS2R38", "amertume", "PROP"]

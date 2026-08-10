@@ -3,7 +3,7 @@ title: "GenePlaza dans la presse"
 type: announcement
 description: Couverture presse, avis et jalons de l'entreprise GenePlaza, avec les liens vers les articles d'origine.
 date: 2018-09-13
-updated: 2024-06-01
+updated: 2026-08-10
 lang: fr
 translation_key: press
 tags: ["press", "about"]

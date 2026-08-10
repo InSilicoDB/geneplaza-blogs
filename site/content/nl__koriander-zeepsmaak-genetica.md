@@ -2,7 +2,7 @@
 title: "Het gen dat koriander naar zeep laat smaken verklaart er bijna niets van"
 type: app
 description: Een variant vlak bij een cluster reukreceptorgenen hangt betrouwbaar samen met koriander die naar zeep smaakt. Het is ook een klein effect bij een eigenschap die vooral door keuken en gewenning wordt gevormd. Allebei waar; het tweede haalt zelden het nieuws.
-date: 2024-06-08
+date: 2026-06-08
 lang: nl
 translation_key: cilantro-soap
 tags: ["post", "koriander", "OR6A2", "smaak", "rs72921001"]

@@ -2,7 +2,7 @@
 title: "Waarom sommige mensen prima slapen na een espresso: het verhaal van CYP1A2"
 type: app
 description: Koffie houdt de een twaalf uur wakker en raakt de ander nauwelijks. Het verschil staat grotendeels in twee genen geschreven. Wat de genetica van koffiegebruik werkelijk laat zien, en hoe u de uwe leest.
-date: 2024-06-01
+date: 2026-06-01
 lang: nl
 translation_key: caffeine-metabolism
 tags: ["post", "voeding", "cafeïne", "CYP1A2"]

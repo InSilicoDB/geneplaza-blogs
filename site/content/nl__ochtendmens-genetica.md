@@ -2,7 +2,7 @@
 title: "24% van de dertigminners is een ochtendmens. Van de zestigplussers 63%. Er is geen genoom veranderd"
 type: app
 description: Een onderzoek onder 89.283 mensen vond 15 genetische regio's die samenhangen met ochtendmens zijn, zeven daarvan vlak bij bekende klokgenen. Het liet ook zien dat leeftijd het chronotype veel sterker verschuift dan welke genvariant dan ook.
-date: 2024-06-08
+date: 2026-06-08
 lang: nl
 translation_key: morning-person
 tags: ["post", "slaap", "chronotype", "circadiaan", "PER2"]

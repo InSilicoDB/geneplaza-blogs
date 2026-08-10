@@ -2,7 +2,7 @@
 title: "Around 3000 BC, Herders From the Steppe Moved Into Europe and Rewrote Its Ancestry"
 type: science
 description: Two 2015 studies traced a massive migration from the Pontic-Caspian steppe into late Neolithic Europe — a movement large enough to reshape the continent's gene pool and, quite possibly, its languages.
-date: 2024-06-22
+date: 2026-06-22
 lang: en
 translation_key: late-neolithic
 tags: ["post", "ancient DNA", "Late Neolithic", "Yamnaya", "Corded Ware", "steppe"]

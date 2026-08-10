@@ -2,7 +2,7 @@
 title: "Two Completely Different Histories Can Produce the Same Ancestry Bar Chart"
 type: app
 description: K29, K35, K5, K30 — the number in an admixture calculator is a setting, not a discovery. A tutorial paper written specifically about misreading these charts explains what they can and cannot tell you.
-date: 2024-06-22
+date: 2026-06-22
 lang: en
 translation_key: admixture-bar-charts
 tags: ["post", "admixture", "ADMIXTURE", "K value", "population genetics"]

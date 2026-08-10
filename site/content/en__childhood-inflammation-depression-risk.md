@@ -3,7 +3,7 @@ title: "4,500 Children Gave a Blood Sample at Nine. What It Predicted at Eightee
 type: app
 description: A long-running Bristol birth cohort found that inflammation levels measured in childhood tracked with depression nine years later. Here is what that finding means, what the genetics of depression has since added, and how much of it applies to any one person.
 date: 2018-07-24
-updated: 2024-06-01
+updated: 2026-08-10
 lang: en
 translation_key: depression-inflammation
 tags: ["post", "depression", "inflammation", "IL-6", "genetics"]

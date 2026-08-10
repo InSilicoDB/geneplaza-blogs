@@ -2,7 +2,7 @@
 title: "Plot Europeans by Their DNA and You Get a Map of Europe"
 type: app
 description: A 2008 study showed genetic variation across Europe mirrors geography closely enough to place people within a few hundred kilometres. That result is the foundation of every 3D genetic-distance visualisation — and of their limits.
-date: 2024-06-29
+date: 2026-06-29
 lang: en
 translation_key: genetic-distance
 tags: ["post", "genetic distance", "PCA", "population structure", "ancestry"]

@@ -2,7 +2,7 @@
 title: "24 % des moins de 30 ans sont du matin. 63 % des plus de 60 ans le sont. Aucun génome n'a changé"
 type: app
 description: Une étude portant sur 89 283 personnes a identifié 15 régions génétiques associées au fait d'être du matin, dont sept près de gènes de l'horloge circadienne. Elle montre aussi que l'âge déplace le chronotype bien plus que n'importe quel variant.
-date: 2024-06-08
+date: 2026-06-08
 lang: fr
 translation_key: morning-person
 tags: ["post", "sommeil", "chronotype", "circadien", "PER2"]

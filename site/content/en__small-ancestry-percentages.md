@@ -2,7 +2,7 @@
 title: "Your 0.5% Is Probably Not an Ancestor"
 type: science
 description: Small ancestry percentages get read as distant relatives and turned into family stories. Usually they are the algorithm hedging. Here is how to tell the difference, including two settings in your results that almost nobody opens.
-date: 2024-07-06
+date: 2026-07-06
 lang: en
 translation_key: small-percentages
 tags: ["post", "ancestry", "admixture", "reference panels", "trace ancestry"]

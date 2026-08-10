@@ -3,7 +3,7 @@ title: "Een DNA-test voorspelt 11% van hoe ver u op school kwam. De andere 89% i
 type: app
 description: Polygene scores voor opleidingsniveau steunen inmiddels op meer dan een miljoen mensen en voorspellen een reëel, herhaalbaar deel van de uitkomsten. Hoe groot dat deel precies is, wat er niet in zit, en waarom het getal instort zodra u broers en zussen vergelijkt.
 date: 2018-07-22
-updated: 2024-06-01
+updated: 2026-08-10
 lang: nl
 translation_key: intelligence-polygenic
 tags: ["post", "intelligentie", "opleidingsniveau", "polygene scores", "GWAS"]

@@ -2,7 +2,7 @@
 title: "A 35,000-Year-Old Lineage Vanished From Europe, Then Came Back 15,000 Years Later"
 type: science
 description: Genomes from 51 Ice Age Europeans revealed a population history far more turbulent than expected — including a lineage that disappeared during the glacial maximum and reappeared millennia afterwards.
-date: 2024-06-22
+date: 2026-06-22
 lang: en
 translation_key: paleolithic
 tags: ["post", "ancient DNA", "Paleolithic", "Ice Age", "hunter-gatherers"]

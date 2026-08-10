@@ -3,7 +3,7 @@ title: "L'Islande pourrait identifier presque toutes les femmes à haut risque d
 type: science
 description: "Une seule mutation fondatrice de BRCA2 explique l'essentiel du cancer du sein héréditaire en Islande, et le pays dispose des données génomiques pour retrouver les porteuses. Pourquoi il s'en abstient est l'une des questions éthiques les plus tranchantes de la génétique : le droit de ne pas savoir."
 date: 2018-05-13
-updated: 2024-06-01
+updated: 2026-08-10
 lang: fr
 translation_key: right-not-to-know
 tags: ["post", "BRCA2", "éthique génétique", "Islande", "droit de ne pas savoir"]

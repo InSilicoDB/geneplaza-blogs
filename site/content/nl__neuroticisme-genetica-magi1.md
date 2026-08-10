@@ -2,7 +2,7 @@
 title: "Het enige gen dat bij 63.661 mensen met neuroticisme samenhing, hield geen stand"
 type: app
 description: Een groot onderzoek naar persoonlijkheidsgenetica vond één genoombreed significante variant — en kon die vervolgens niet bevestigen in een onafhankelijke steekproef. Wat wél standhield is interessanter dan de kop.
-date: 2024-06-29
+date: 2026-06-29
 lang: nl
 translation_key: neuroticism
 tags: ["post", "neuroticisme", "persoonlijkheid", "MAGI1", "polygene scores"]

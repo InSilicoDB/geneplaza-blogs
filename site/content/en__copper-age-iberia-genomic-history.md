@@ -2,7 +2,7 @@
 title: "In Copper Age Iberia, Local Y-Chromosome Lineages Were Almost Entirely Replaced. Female Lineages Were Not"
 type: science
 description: A study of 271 ancient Iberians across 8,000 years found a striking asymmetry during the Copper-to-Bronze Age transition — one that says something uncomfortable about how these population turnovers happened.
-date: 2024-06-22
+date: 2026-06-22
 lang: en
 translation_key: copper-age
 tags: ["post", "ancient DNA", "Copper Age", "Chalcolithic", "Iberia"]

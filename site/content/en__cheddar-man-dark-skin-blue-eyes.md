@@ -3,7 +3,7 @@ title: "Cheddar Man Had Dark Skin and Blue Eyes. A Consumer DNA Test Helped Prov
 type: science
 description: Ten thousand years ago, Britain's oldest near-complete skeleton had dark skin, pale eyes and no ability to digest milk. Here is what his genome showed, and how a marker list from a recreational DNA test ended up at the centre of the investigation.
 date: 2018-06-20
-updated: 2024-06-01
+updated: 2026-08-10
 lang: en
 translation_key: cheddar-man
 tags: ["post", "ancient DNA", "Mesolithic", "pigmentation", "SLC24A5"]

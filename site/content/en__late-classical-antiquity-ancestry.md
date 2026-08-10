@@ -2,7 +2,7 @@
 title: "When Rome Fell, the Genetics of Italy Changed Direction Again"
 type: science
 description: Late antiquity and the early medieval period brought a second reversal in the ancestry of the Roman region, this time toward central and northern Europe. What the DNA of a collapsing empire actually shows.
-date: 2024-06-22
+date: 2026-06-22
 lang: en
 translation_key: late-classical-antiquity
 tags: ["post", "ancient DNA", "Late Antiquity", "medieval", "migration period"]

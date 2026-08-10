@@ -3,7 +3,7 @@ title: "Around 2500 BC, Someone Arrived in Britain and Replaced 90% of Its Gene 
 type: science
 description: A study of 400 ancient genomes traced the Bell Beaker expansion across Europe and found that in Britain it coincided with the replacement of roughly 90% of the island's ancestry within a few centuries. What the DNA shows, and what it still cannot say.
 date: 2018-07-24
-updated: 2024-06-01
+updated: 2026-08-10
 lang: en
 translation_key: bell-beaker
 tags: ["post", "ancient DNA", "Bell Beaker", "Bronze Age", "steppe ancestry"]

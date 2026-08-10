@@ -2,7 +2,7 @@
 title: "The People of Imperial Rome Looked Genetically Like the Eastern Mediterranean, Not Like Italy"
 type: science
 description: Genomes from 127 individuals across 12,000 years of the Roman region show the city's ancestry shifting dramatically as the empire grew — and shifting back again after it declined.
-date: 2024-06-22
+date: 2026-06-22
 lang: en
 translation_key: early-classical-antiquity
 tags: ["post", "ancient DNA", "Rome", "Classical Antiquity", "Mediterranean"]

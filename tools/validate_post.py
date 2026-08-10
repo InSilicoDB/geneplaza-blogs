@@ -348,6 +348,29 @@ def validate(path, catalogue):
         if not re.search(disclaimer, low_body):
             warnings.append("TONE: health content with no medical disclaimer / signposting to a clinician")
 
+    # --- dates must be plausible
+    # A post dated two years before today is either a migration (which should say
+    # so via original_url/source) or a mistake. Future dates are always a mistake.
+    import datetime as _dt
+    raw = str(fm.get("date", "")).strip().strip("\"'")
+    m_d = re.match(r"(\d{4})-(\d{2})-(\d{2})", raw)
+    if m_d:
+        try:
+            d = _dt.date(int(m_d.group(1)), int(m_d.group(2)), int(m_d.group(3)))
+            today = _dt.date.today()
+            if d > today:
+                errors.append(f"DATE: {raw} is in the future")
+            elif (today - d).days > 550 and not (fm.get("original_url") or
+                                                 str(fm.get("source","")).startswith("wordpress")):
+                warnings.append(
+                    f"DATE: {raw} is over 18 months old but this is not a migrated "
+                    "post - check the year is right"
+                )
+        except ValueError:
+            errors.append(f"DATE: {raw} is not a valid calendar date")
+    elif raw:
+        errors.append(f"DATE: {raw!r} is not YYYY-MM-DD")
+
     # --- house voice: the opening must land on something concrete
     # (a scene, a person, a year, a number, or direct address) rather than an
     # institution or an abstract noun. See write-post/VOICES.md.

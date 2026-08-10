@@ -3,7 +3,7 @@ title: "GenePlaza in de pers"
 type: announcement
 description: Persaandacht, reviews en mijlpalen van GenePlaza, met links naar de oorspronkelijke artikelen.
 date: 2018-09-13
-updated: 2024-06-01
+updated: 2026-08-10
 lang: nl
 translation_key: press
 tags: ["press", "about"]

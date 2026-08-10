@@ -3,7 +3,7 @@ title: "500.000 Britten vulden vragenlijsten in. Uw DNA wordt met die van hen ve
 type: app
 description: De 500K-applicatie vergelijkt uw genotype met UK Biobank, een cohort van een half miljoen Britse deelnemers met gekoppelde gezondheidsgegevens. Wat die vergelijking oplevert, hoe groot de effecten werkelijk zijn, en wat een polygene score niet over u zegt.
 date: 2018-08-07
-updated: 2024-06-01
+updated: 2026-08-10
 lang: nl
 translation_key: uk-biobank-health-traits
 tags: ["post", "UK Biobank", "polygene scores", "gezondheid", "Health Traits"]

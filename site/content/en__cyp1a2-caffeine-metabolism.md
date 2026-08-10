@@ -5,7 +5,7 @@ tags: ["post", "nutrition", "caffeine", "CYP1A2"]
 type: app
 lang: en
 translation_key: caffeine-metabolism
-date: 2024-06-01
+date: 2026-06-01
 app_id: 61
 study: "Cornelis MC et al., Molecular Psychiatry 2015"
 layout: article.njk

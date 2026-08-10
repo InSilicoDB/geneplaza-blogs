@@ -3,7 +3,7 @@ title: "Vers 2500 av. J.-C., quelqu'un débarque en Grande-Bretagne et remplace 
 type: science
 description: Une étude de 400 génomes anciens a retracé l'expansion campaniforme à travers l'Europe et montré qu'en Grande-Bretagne elle coïncide avec le remplacement d'environ 90 % de l'ascendance de l'île en quelques siècles. Ce que l'ADN montre, et ce qu'il ne peut toujours pas dire.
 date: 2018-07-24
-updated: 2024-06-01
+updated: 2026-08-10
 lang: fr
 translation_key: bell-beaker
 tags: ["post", "ADN ancien", "campaniforme", "âge du bronze", "ascendance steppique"]

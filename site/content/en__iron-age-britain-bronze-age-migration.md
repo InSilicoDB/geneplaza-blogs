@@ -2,7 +2,7 @@
 title: "The Migration That Brought Celtic Languages to Britain May Have Happened 500 Years Before the Iron Age"
 type: science
 description: A study of 793 ancient genomes found a large, previously undetected movement of people into Britain during the Middle to Late Bronze Age — reshaping when, and how, the Iron Age population came to be.
-date: 2024-06-22
+date: 2026-06-22
 lang: en
 translation_key: iron-age
 tags: ["post", "ancient DNA", "Iron Age", "Bronze Age", "Britain", "Celtic"]

@@ -2,7 +2,7 @@
 title: "The Gene That Makes Cilantro Taste Like Soap Explains Almost None of It"
 type: app
 description: A variant near a cluster of olfactory receptor genes is reliably associated with finding cilantro soapy. It is also a small effect in a trait shaped mostly by cuisine and exposure. Both facts are true, and the second gets less coverage.
-date: 2024-06-08
+date: 2026-06-08
 lang: en
 translation_key: cilantro-soap
 tags: ["post", "cilantro", "coriander", "OR6A2", "taste", "rs72921001"]

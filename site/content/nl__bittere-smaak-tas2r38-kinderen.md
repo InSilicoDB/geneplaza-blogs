@@ -2,7 +2,7 @@
 title: "Kinderen en hun moeders hadden hetzelfde bittersmaakgen. Alleen de kinderen wilden meer suiker"
 type: app
 description: Een onderzoek onder 143 kinderen en hun moeders vond dat een variant in de bitterreceptor TAS2R38 de gevoeligheid voor een bittere stof in beide groepen voorspelde — maar de voorkeur voor zoet alleen bij de kinderen. Wat veranderd was, was niet het gen.
-date: 2024-06-08
+date: 2026-06-08
 lang: nl
 translation_key: bitter-taste
 tags: ["post", "smaak", "TAS2R38", "bitter", "PROP"]

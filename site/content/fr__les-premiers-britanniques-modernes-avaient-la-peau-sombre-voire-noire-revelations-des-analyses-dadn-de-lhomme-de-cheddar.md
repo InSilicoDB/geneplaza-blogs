@@ -3,7 +3,7 @@ title: "L'homme de Cheddar avait la peau foncée et les yeux bleus. Un test ADN 
 type: science
 description: Il y a 10 000 ans, le plus vieux squelette presque complet de Grande-Bretagne avait la peau foncée, les yeux clairs et ne digérait pas le lait. Voici ce que son génome a révélé, et pourquoi la liste de marqueurs d'un test ADN récréatif s'est retrouvée au cœur de l'enquête.
 date: 2018-06-20
-updated: 2024-06-01
+updated: 2026-08-10
 lang: fr
 translation_key: cheddar-man
 tags: ["post", "ADN ancien", "Mésolithique", "pigmentation", "SLC24A5"]

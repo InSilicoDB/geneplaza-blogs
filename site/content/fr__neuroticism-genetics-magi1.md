@@ -2,7 +2,7 @@
 title: "Le seul gène associé au névrosisme chez 63 661 personnes n'a pas été répliqué"
 type: app
 description: Une vaste étude de génétique de la personnalité a trouvé un variant significatif à l'échelle du génome — puis n'a pas réussi à le confirmer dans un échantillon indépendant. Ce qui a survécu est plus intéressant que le résultat annoncé.
-date: 2024-06-29
+date: 2026-06-29
 lang: fr
 translation_key: neuroticism
 tags: ["post", "névrosisme", "personnalité", "MAGI1", "scores polygéniques"]

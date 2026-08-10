@@ -2,7 +2,7 @@
 title: "Pourquoi certains dorment très bien après un espresso : l'histoire de CYP1A2"
 type: app
 description: Le café tient certains éveillés douze heures et n'affecte presque pas les autres. La différence est en grande partie inscrite dans deux gènes. Ce que montre réellement la génétique de la consommation de café, et comment lire la vôtre.
-date: 2024-06-01
+date: 2026-06-01
 lang: fr
 translation_key: caffeine-metabolism
 tags: ["post", "nutrition", "caféine", "CYP1A2"]

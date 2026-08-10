@@ -2,7 +2,7 @@
 title: "Uw 0,5% is waarschijnlijk geen voorouder"
 type: science
 description: Kleine afkomstpercentages worden gelezen als verre familieleden en omgebouwd tot familieverhalen. Meestal is het het algoritme dat twijfelt. Hoe u het verschil ziet — en twee instellingen in uw resultaten die vrijwel niemand opent.
-date: 2024-07-06
+date: 2026-07-06
 lang: nl
 translation_key: small-percentages
 tags: ["post", "afkomst", "admixture", "referentiepanels", "spoorafkomst"]

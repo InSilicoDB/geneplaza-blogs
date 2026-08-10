@@ -2,7 +2,7 @@
 title: "249.796 mensen doorzocht op obesitasgenen. Wat ze vonden verklaart er ongeveer 1,5% van"
 type: app
 description: De baanbrekende genoombrede studie naar BMI bevestigde 14 bekende regio's en vond er 18 nieuwe, meerdere vlak bij hypothalame regelaars van eetlust. Samen verklaren ze een klein deel van de gewichtsverschillen tussen mensen — en dat is het nuttigste eraan.
-date: 2024-06-08
+date: 2026-06-08
 lang: nl
 translation_key: bmi-genetics
 tags: ["post", "BMI", "obesitas", "FTO", "MC4R", "GWAS"]

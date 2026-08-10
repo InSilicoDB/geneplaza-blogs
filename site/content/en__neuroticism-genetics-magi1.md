@@ -2,7 +2,7 @@
 title: "The Only Gene Linked to Neuroticism in 63,661 People Failed to Replicate"
 type: app
 description: A large personality genetics study found one genome-wide significant variant — and then could not confirm it in an independent sample. What survived is more interesting than the headline hit.
-date: 2024-06-29
+date: 2026-06-29
 lang: en
 translation_key: neuroticism
 tags: ["post", "neuroticism", "personality", "MAGI1", "polygenic scores"]

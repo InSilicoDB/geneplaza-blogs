@@ -3,7 +3,7 @@ title: "Iceland Could Identify Almost Every Woman at High Risk of Breast Cancer.
 type: science
 description: A single BRCA2 founder mutation accounts for most hereditary breast cancer in Iceland, and the country has the genomic data to find carriers. Why it holds back is one of the sharpest ethical questions in genetics — the right not to know.
 date: 2018-05-13
-updated: 2024-06-01
+updated: 2026-08-10
 lang: en
 translation_key: right-not-to-know
 tags: ["post", "BRCA2", "genetic ethics", "Iceland", "right not to know"]

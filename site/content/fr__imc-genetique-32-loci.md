@@ -2,7 +2,7 @@
 title: "249 796 personnes passées au crible pour trouver les gènes de l'obésité. Le résultat en explique environ 1,5 %"
 type: app
 description: L'étude d'association pangénomique de référence sur l'IMC a confirmé 14 loci connus et en a identifié 18 nouveaux, plusieurs près de régulateurs hypothalamiques de l'appétit. Ensemble, ils expliquent une petite part des différences de poids — ce qui est le plus instructif à leur sujet.
-date: 2024-06-08
+date: 2026-06-08
 lang: fr
 translation_key: bmi-genetics
 tags: ["post", "IMC", "obésité", "FTO", "MC4R", "GWAS"]
