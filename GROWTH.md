@@ -124,6 +124,20 @@ likely place to get the domain flagged.
 | "What do K numbers mean?" | `/blog/en/how-to-read-admixture-bar-charts/` |
 | "Am I related to Cheddar Man?" | `/blog/en/cheddar-man-dark-skin-blue-eyes/` |
 
+### Threads to skip
+
+Not every thread is an opportunity. **Do not comment on threads about identity,
+politics, race, nationalism or eugenics — even when the science in them is wrong.**
+Being right does not help there; being screenshotted does hurt, and ancestry
+testing is already historically entangled with eugenics.
+
+Filter: *is someone about to misunderstand their own results in a way I can fix?*
+
+- MTHFR interpretation — yes
+- Trace percentages read as ancestors — yes
+- "Old Stock Americans" and nativism — no
+- Anything where the disagreement is about identity rather than data — no
+
 ### Volume
 
 **2–3 answers/day in week 1, across all Tier 1 subs combined** — not per sub.
